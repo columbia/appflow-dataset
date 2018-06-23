@@ -1,0 +1,4 @@
+15 paypal
+25 shippingcost
+28 totalcost
+29 placeorder

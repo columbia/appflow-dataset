@@ -1,0 +1,8 @@
+7 menu
+21 item
+24 item_title
+30 item
+32 item_image
+35 item_title
+48 item_image
+53 text

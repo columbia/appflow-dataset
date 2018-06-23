@@ -1,0 +1,8 @@
+8 back
+16 cart_list
+27 cart_item
+37 item_count
+50 cart_item
+60 item_count
+85 cart_tax
+88 cart_subtotal

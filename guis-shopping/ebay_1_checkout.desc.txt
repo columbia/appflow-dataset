@@ -1,0 +1,7 @@
+11 back
+42 addresses
+46 address_item
+49 payments
+68 shippingcost
+72 totalcost
+74 placeorder

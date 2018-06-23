@@ -1,0 +1,10 @@
+19 item_title
+20 item_price
+23 item_count
+27 item_title
+28 item_price
+31 item_count
+35 item_title
+36 item_price
+39 item_count
+46 cart_subtotal

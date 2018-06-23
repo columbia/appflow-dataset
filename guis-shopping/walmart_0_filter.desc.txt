@@ -1,0 +1,5 @@
+15 filter_list
+16 filter_category
+20 filter_color
+24 filter_price
+26 filter_brand

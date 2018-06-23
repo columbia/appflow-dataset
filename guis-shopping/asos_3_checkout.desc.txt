@@ -1,0 +1,5 @@
+14 address_item
+15 addresses
+19 creditcard
+22 paypal
+32 shippingcost

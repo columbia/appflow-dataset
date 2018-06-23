@@ -1,0 +1,10 @@
+13 cart
+39 menu_list
+42 home
+45 cat_item
+48 cat_title
+49 cat_item
+52 cat_title
+53 cat_item
+56 cat_title
+69 signin

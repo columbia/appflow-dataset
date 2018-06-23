@@ -1,0 +1,5 @@
+68 apply
+72 filter_list
+77 filter_category
+94 filter_price
+100 filter_reset

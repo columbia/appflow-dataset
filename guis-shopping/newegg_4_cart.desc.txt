@@ -1,0 +1,9 @@
+10 back
+24 cart_item
+52 item_remove
+54 item_count
+57 item_count
+61 cart_item
+82 item_remove
+87 item_count
+92 cart_subtotal

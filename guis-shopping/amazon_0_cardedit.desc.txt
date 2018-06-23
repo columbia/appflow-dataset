@@ -1,0 +1,6 @@
+10 menu
+39 card_no
+41 card_month
+44 card_year
+49 card_save
+51 back

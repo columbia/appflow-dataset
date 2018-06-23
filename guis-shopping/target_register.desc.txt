@@ -1,0 +1,7 @@
+18 email
+22 password
+28 register_name
+35 register
+47 menu
+50 search
+51 cart

@@ -1,0 +1,9 @@
+14 cart_list
+16 cart_item
+17 item_image
+19 item_title
+20 item_price
+25 item_remove
+26 item_count
+41 cart_subtotal
+46 cart

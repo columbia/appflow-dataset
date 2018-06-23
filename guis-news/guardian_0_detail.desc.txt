@@ -1,0 +1,6 @@
+26 back
+29 share
+30 bookmark
+150 title
+151 text
+156 image

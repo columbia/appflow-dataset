@@ -1,0 +1,544 @@
+- page:
+    base_h: 483
+    base_w: 1006
+    base_x: 37
+    base_y: 1663
+    html_h: 184.0
+    html_w: 384.0
+    nodes:
+      1:
+        baseURL: http://localhost/
+        childNodeCount: 1
+        children:
+        - &id001
+          attributes: []
+          childNodeCount: 2
+          children:
+          - &id002
+            attributes: []
+            childNodeCount: 10
+            childrenids: [5, 6, 8, 10, 11, 13, 14, 15, 17, 18]
+            h: 0.0
+            localName: head
+            nodeId: 3
+            nodeName: HEAD
+            nodeType: 1
+            nodeValue: ''
+            parent: 2
+            props: {}
+            value: ''
+            w: 0.0
+            x: 0.0
+            y: 0.0
+          - &id003
+            attributes: []
+            childNodeCount: 6
+            childrenids: [20, 24, 25, 27, 28, 29]
+            h: 184.0
+            localName: body
+            nodeId: 4
+            nodeName: BODY
+            nodeType: 1
+            nodeValue: ''
+            parent: 2
+            props: {}
+            value: ''
+            w: 384.0
+            x: 0.0
+            y: 0.0
+          childrenids: [3, 4]
+          h: 184.0
+          localName: html
+          nodeId: 2
+          nodeName: HTML
+          nodeType: 1
+          nodeValue: ''
+          parent: 1
+          props: {}
+          value: ''
+          w: 384.0
+          x: 0.0
+          y: 0.0
+        childrenids: [2]
+        documentURL: http://localhost/
+        localName: ''
+        nodeId: 1
+        nodeName: '#document'
+        nodeType: 9
+        nodeValue: ''
+        parent: -1
+        props: {}
+        xmlVersion: ''
+      2: *id001
+      3: *id002
+      4: *id003
+      5:
+        attributes: [name, viewport, content, 'width=device-width, initial-scale=1.0,
+            minimum-scale=1.0, maximum-scale=1.0, user-scalable=no']
+        childNodeCount: 0
+        children: []
+        childrenids: []
+        localName: meta
+        nodeId: 5
+        nodeName: META
+        nodeType: 1
+        nodeValue: ''
+        parent: 3
+        props: {content: 'width=device-width, initial-scale=1.0, minimum-scale=1.0,
+            maximum-scale=1.0, user-scalable=no', name: viewport}
+      6:
+        attributes: []
+        childNodeCount: 1
+        children:
+        - &id004
+          childrenids: []
+          localName: ''
+          nodeId: 7
+          nodeName: '#text'
+          nodeType: 3
+          nodeValue: '
+
+            body { margin:0; padding:0;}
+
+            *:not(input) { -webkit-touch-callout:none; -webkit-user-select:none; -webkit-text-size-adjust:none;
+            }
+
+            '
+          parent: 6
+          props: {}
+        childrenids: [7]
+        h: 0.0
+        localName: style
+        nodeId: 6
+        nodeName: STYLE
+        nodeType: 1
+        nodeValue: ''
+        parent: 3
+        props: {}
+        value: ''
+        w: 0.0
+        x: 0.0
+        y: 0.0
+      7: *id004
+      8:
+        attributes: []
+        childNodeCount: 1
+        children:
+        - {localName: '', nodeId: 9, nodeName: '#text', nodeType: 3, nodeValue: "//\n\
+            //  mraid.js\n//\n\n(function() {\n\t\n\tconsole.log(\"MRAID object loading...\"\
+            );\n\n\t/***************************************************************************\n\
+            \t * MRAID declaration\n\t **************************************************************************/\n\
+            \n\tvar mraid = window.mraid = {};\n\n\t/***************************************************************************\n\
+            \t * console logging helper\n\t **************************************************************************/\n\
+            \n\tmraid.LogLevelEnum = {\n\t\t\"DEBUG\"   : 0,\n\t\t\"INFO\"    : 1,\n\
+            \t\t\"WARNING\" : 2,\n\t\t\"ERROR\"   : 3,\n\t\t\"NONE\"    : 4\n\t};\n\
+            \n\tmraid.logLevel = mraid.LogLevelEnum.NONE;\n\tvar log = {};\n\n\tlog.d\
+            \ = function(msg) {\n\t\tif (mraid.logLevel <= mraid.LogLevelEnum.DEBUG)\
+            \ {\n\t\t\tconsole.log(\"(D-mraid.js) \" + msg);\n\t\t}\n\t};\n\n\tlog.i\
+            \ = function(msg) {\n\t\tif (mraid.logLevel <= mraid.LogLevelEnum.INFO)\
+            \ {\n\t\t\tconsole.log(\"(I-mraid.js) \" + msg);\n\t\t}\n\t};\n\n\tlog.w\
+            \ = function(msg) {\n\t\tif (mraid.logLevel <= mraid.LogLevelEnum.WARNING)\
+            \ {\n\t\t\tconsole.log(\"(W-mraid.js) \" + msg);\n\t\t}\n\t};\n\n\tlog.e\
+            \ = function(msg) {\n\t\tif (mraid.logLevel <= mraid.LogLevelEnum.ERROR)\
+            \ {\n\t\t\tconsole.log(\"(E-mraid.js) \" + msg);\n\t\t}\n\t};\n\n\t/***************************************************************************\n\
+            \t * constants\n\t **************************************************************************/\n\
+            \n\tvar VERSION = \"2.0\";\n\n\tvar STATES = mraid.STATES = {\n\t\t\"\
+            LOADING\" : \"loading\",\n\t\t\"DEFAULT\" : \"default\",\n\t\t\"EXPANDED\"\
+            \ : \"expanded\",\n\t\t\"RESIZED\" : \"resized\",\n\t\t\"HIDDEN\" : \"\
+            hidden\"\n\t};\n\n\tvar PLACEMENT_TYPES = mraid.PLACEMENT_TYPES = {\n\t\
+            \t\"INLINE\" : \"inline\",\n\t\t\"INTERSTITIAL\" : \"interstitial\"\n\t\
+            };\n\n\tvar RESIZE_PROPERTIES_CUSTOM_CLOSE_POSITION = mraid.RESIZE_PROPERTIES_CUSTOM_CLOSE_POSITION\
+            \ = {\n\t\t\"TOP_LEFT\" : \"top-left\",\n\t\t\"TOP_CENTER\" : \"top-center\"\
+            ,\n\t\t\"TOP_RIGHT\" : \"top-right\",\n\t\t\"CENTER\" : \"center\",\n\t\
+            \t\"BOTTOM_LEFT\" : \"bottom-left\",\n\t\t\"BOTTOM_CENTER\" : \"bottom-center\"\
+            ,\n\t\t\"BOTTOM_RIGHT\" : \"bottom-right\"\n\t};\n\n\tvar ORIENTATION_PROPERTIES_FORCE_ORIENTATION\
+            \ = mraid.ORIENTATION_PROPERTIES_FORCE_ORIENTATION = {\n\t\t\"PORTRAIT\"\
+            \ : \"portrait\",\n\t\t\"LANDSCAPE\" : \"landscape\",\n\t\t\"NONE\" :\
+            \ \"none\"\n\t};\n\n\tvar EVENTS = mraid.EVENTS = {\n\t\t\"ERROR\" : \"\
+            error\",\n\t\t\"READY\" : \"ready\",\n\t\t\"SIZECHANGE\" : \"sizeChange\"\
+            ,\n\t\t\"STATECHANGE\" : \"stateChange\",\n\t\t\"VIEWABLECHANGE\" : \"\
+            viewableChange\"\n\t};\n\n\tvar SUPPORTED_FEATURES = mraid.SUPPORTED_FEATURES\
+            \ = {\n\t\t\"SMS\" : \"sms\",\n\t\t\"TEL\" : \"tel\",\n\t\t\"CALENDAR\"\
+            \ : \"calendar\",\n\t\t\"STOREPICTURE\" : \"storePicture\",\n\t\t\"INLINEVIDEO\"\
+            \ : \"inlineVideo\"\n\t};\n\n\t/***************************************************************************\n\
+            \t * state\n\t **************************************************************************/\n\
+            \n\tvar state = STATES.LOADING;\n\tvar placementType = PLACEMENT_TYPES.INLINE;\n\
+            \tvar supportedFeatures = {};\n\tvar isViewable = false;\n\tvar isExpandPropertiesSet\
+            \ = false;\n\tvar isResizeReady = false;\n\n\tvar expandProperties = {\n\
+            \t\t\"width\" : 0,\n\t\t\"height\" : 0,\n\t\t\"useCustomClose\" : false,\n\
+            \t\t\"isModal\" : true\n\t};\n\n\tvar orientationProperties = {\n\t\t\"\
+            allowOrientationChange\" : true,\n\t\t\"forceOrientation\" : ORIENTATION_PROPERTIES_FORCE_ORIENTATION.NONE\n\
+            \t};\n\n\tvar resizeProperties = {\n\t\t\"width\" : 0,\n\t\t\"height\"\
+            \ : 0,\n\t\t\"customClosePosition\" : RESIZE_PROPERTIES_CUSTOM_CLOSE_POSITION.TOP_RIGHT,\n\
+            \t\t\"offsetX\" : 0,\n\t\t\"offsetY\" : 0,\n\t\t\"allowOffscreen\" : true\n\
+            \t};\n\n\tvar currentPosition = {\n\t\t\"x\" : 0,\n\t\t\"y\" : 0,\n\t\t\
+            \"width\" : 0,\n\t\t\"height\" : 0\n\t};\n\n\tvar defaultPosition = {\n\
+            \t\t\"x\" : 0,\n\t\t\"y\" : 0,\n\t\t\"width\" : 0,\n\t\t\"height\" : 0\n\
+            \t};\n\n\tvar maxSize = {\n\t\t\"width\" : 0,\n\t\t\"height\" : 0\n\t\
+            };\n\n\tvar screenSize = {\n\t\t\"width\" : 0,\n\t\t\"height\" : 0\n\t\
+            };\n\n\tvar currentOrientation = 0;\n\n\tvar listeners = {};\n\n\t/***************************************************************************\n\
+            \t * \"official\" API: methods called by creative\n\t **************************************************************************/\n\
+            \n\tmraid.addEventListener = function(event, listener) {\n\t\tlog.i(\"\
+            mraid.addEventListener \" + event + \": \" + String(listener));\n\t\t\
+            if (!event || !listener) {\n\t\t\tmraid.fireErrorEvent(\"Both event and\
+            \ listener are required.\", \"addEventListener\");\n\t\t\treturn;\n\t\t\
+            }\n\t\tif (!contains(event, EVENTS)) {\n\t\t\tmraid.fireErrorEvent(\"\
+            Unknown MRAID event: \" + event, \"addEventListener\");\n\t\t\treturn;\n\
+            \t\t}\n\t\tvar listenersForEvent = listeners[event] = listeners[event]\
+            \ || [];\n\t\t// check to make sure that the listener isn't already registered\n\
+            \t\tfor (var i = 0; i < listenersForEvent.length; i++) {\n\t\t\tvar str1\
+            \ = String(listener);\n\t\t\tvar str2 = String(listenersForEvent[i]);\n\
+            \t\t\tif (listener === listenersForEvent[i] || str1 === str2) {\n\t\t\t\
+            \tlog.i(\"listener \" + str1 + \" is already registered for event \" +\
+            \ event);\n\t\t\t\treturn;\n\t\t\t}\n\t\t}\n\t\tlistenersForEvent.push(listener);\n\
+            \t};\n\n\tmraid.createCalendarEvent = function(parameters) {\n\t\tlog.i(\"\
+            mraid.createCalendarEvent with \" + parameters);\n\t\tif (supportedFeatures[mraid.SUPPORTED_FEATURES.CALENDAR])\
+            \ {\n\t\t\tcallNative(\"createCalendarEvent?eventJSON=\"\t+ JSON.stringify(parameters));\n\
+            \t\t} else {\n\t\t\tlog.e(\"createCalendarEvent is not supported\");\n\
+            \t\t}\n\t};\n\n\tmraid.close = function() {\n\t\tlog.i(\"mraid.close\"\
+            );\n\t\tif (state === STATES.LOADING\n\t\t\t\t|| (state === STATES.DEFAULT\
+            \ && placementType === PLACEMENT_TYPES.INLINE)\n\t\t\t\t|| state === STATES.HIDDEN)\
+            \ {\n\t\t\t// do nothing\n\t\t\treturn;\n\t\t}\n\t\tcallNative(\"close\"\
+            );\n\t};\n\n\tmraid.expand = function(url) {\n\t\tif (url === undefined)\
+            \ {\n\t\t\tlog.i(\"mraid.expand (1-part)\");\n\t\t} else {\n\t\t\tlog.i(\"\
+            mraid.expand \" + url);\n\t\t}\n\t\t// The only time it is valid to call\
+            \ expand is when the ad is\n\t\t// a banner currently in either default\
+            \ or resized state.\n\t\tif (placementType !== PLACEMENT_TYPES.INLINE\n\
+            \t\t\t\t|| (state !== STATES.DEFAULT && state !== STATES.RESIZED)) {\n\
+            \t\t\treturn;\n\t\t}\n\t\tif (url === undefined) {\n\t\t\tcallNative(\"\
+            expand\");\n\t\t} else {\n\t\t\tcallNative(\"expand?url=\" + encodeURIComponent(url));\n\
+            \t\t}\n\t};\n\n\tmraid.getCurrentPosition = function() {\n\t\tlog.i(\"\
+            mraid.getCurrentPosition\");\n\t\treturn currentPosition;\n\t};\n\n\t\
+            mraid.getDefaultPosition = function() {\n\t\tlog.i(\"mraid.getDefaultPosition\"\
+            );\n\t\treturn defaultPosition;\n\t};\n\n\tmraid.getExpandProperties =\
+            \ function() {\n\t\tlog.i(\"mraid.getExpandProperties\");\n\t\treturn\
+            \ expandProperties;\n\t};\n\n\tmraid.getMaxSize = function() {\n\t\tlog.i(\"\
+            mraid.getMaxSize\");\n\t\treturn maxSize;\n\t};\n\n\tmraid.getOrientationProperties\
+            \ = function() {\n\t\tlog.i(\"mraid.getOrientationProperties\");\n\t\t\
+            return orientationProperties;\n\t};\n\n\tmraid.getPlacementType = function()\
+            \ {\n\t\tlog.i(\"mraid.getPlacementType\");\n\t\treturn placementType;\n\
+            \t};\n\n\tmraid.getResizeProperties = function() {\n\t\tlog.i(\"mraid.getResizeProperties\"\
+            );\n\t\treturn resizeProperties;\n\t};\n\n\tmraid.getScreenSize = function()\
+            \ {\n\t\tlog.i(\"mraid.getScreenSize\");\n\t\treturn screenSize;\n\t};\n\
+            \n\tmraid.getState = function() {\n\t\tlog.i(\"mraid.getState\");\n\t\t\
+            return state;\n\t};\n\n\tmraid.getVersion = function() {\n\t\tlog.i(\"\
+            mraid.getVersion\");\n\t\treturn VERSION;\n\t};\n\n\tmraid.isViewable\
+            \ = function() {\n\t\tlog.i(\"mraid.isViewable\");\n\t\treturn isViewable;\n\
+            \t};\n\n\tmraid.open = function(url) {\n\t\tlog.i(\"mraid.open \" + url);\n\
+            \t\tcallNative(\"open?url=\" + encodeURIComponent(url));\n\t};\n\n\tmraid.playVideo\
+            \ = function(url) {\n\t\tlog.i(\"mraid.playVideo \" + url);\n\t\tcallNative(\"\
+            playVideo?url=\" + encodeURIComponent(url));\n\t};\n\n\tmraid.removeEventListener\
+            \ = function(event, listener) {\n\t\tlog.i(\"mraid.removeEventListener\
+            \ \" + event + \" : \" + String(listener));\n\t\tif (!event) {\n\t\t\t\
+            mraid.fireErrorEvent(\"Event is required.\", \"removeEventListener\");\n\
+            \t\t\treturn;\n\t\t}\n\t\tif (!contains(event, EVENTS)) {\n\t\t\tmraid.fireErrorEvent(\"\
+            Unknown MRAID event: \" + event, \"removeEventListener\");\n\t\t\treturn;\n\
+            \t\t}\n\t\tif (listeners.hasOwnProperty(event)) {\n\t\t\tif (listener)\
+            \ {\n\t\t\t\tvar listenersForEvent = listeners[event];\n\t\t\t\t// try\
+            \ to find the given listener\n\t\t\t\tvar len = listenersForEvent.length;\n\
+            \t\t\t\tfor (var i = 0; i < len; i++) {\n\t\t\t\t\tvar registeredListener\
+            \ = listenersForEvent[i];\n\t\t\t\t\tvar str1 = String(listener);\n\t\t\
+            \t\t\tvar str2 = String(registeredListener);\n\t\t\t\t\tif (listener ===\
+            \ registeredListener || str1 === str2) {\n\t\t\t\t\t\tlistenersForEvent.splice(i,\
+            \ 1);\n\t\t\t\t\t\tbreak;\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t\tif (i === len)\
+            \ {\n\t\t\t\t\tlog.i(\"listener \" + str1 + \" not found for event \"\
+            \ + event);\n\t\t\t\t}\n\t\t\t\tif (listenersForEvent.length === 0) {\n\
+            \t\t\t\t\tdelete listeners[event];\n\t\t\t\t}\n\t\t\t} else {\n\t\t\t\t\
+            // no listener to remove was provided, so remove all listeners\n\t\t\t\
+            \t// for given event\n\t\t\t\tdelete listeners[event];\n\t\t\t}\n\t\t\
+            } else {\n\t\t\tlog.i(\"no listeners registered for event \" + event);\n\
+            \t\t}\n\t};\n\n\tmraid.resize = function() {\n\t\tlog.i(\"mraid.resize\"\
+            );\n\t\t// The only time it is valid to call resize is when the ad is\n\
+            \t\t// a banner currently in either default or resized state.\n\t\t//\
+            \ Trigger an error if the current state is expanded.\n\t\tif (placementType\
+            \ === PLACEMENT_TYPES.INTERSTITIAL || state === STATES.LOADING || state\
+            \ === STATES.HIDDEN) {\n\t\t\t// do nothing\n\t\t\treturn;\n\t\t}\n\t\t\
+            if (state === STATES.EXPANDED) {\n\t\t\tmraid.fireErrorEvent(\"mraid.resize\
+            \ called when ad is in expanded state\", \"mraid.resize\");\n\t\t\treturn;\n\
+            \t\t}\n\t\tif (!isResizeReady) {\n\t\t\tmraid.fireErrorEvent(\"mraid.resize\
+            \ is not ready to be called\", \"mraid.resize\");\n\t\t\treturn;\n\t\t\
+            }\n\t\tcallNative(\"resize\");\n\t};\n\n\tmraid.setExpandProperties =\
+            \ function(properties) {\n\t\tlog.i(\"mraid.setExpandProperties\");\n\n\
+            \t\tif (!validate(properties, \"setExpandProperties\")) {\n\t\t\tlog.e(\"\
+            failed validation\");\n\t\t\treturn;\n\t\t}\n\n\t\tvar oldUseCustomClose\
+            \ = expandProperties.useCustomClose;\n\n\t\t// expandProperties contains\
+            \ 3 read-write properties: width, height, and useCustomClose;\n\t\t//\
+            \ the isModal property is read-only\n\t\tvar rwProps = [ \"width\", \"\
+            height\", \"useCustomClose\" ];\n\t\tfor (var i = 0; i < rwProps.length;\
+            \ i++) {\n\t\t\tvar propname = rwProps[i];\n\t\t\tif (properties.hasOwnProperty(propname))\
+            \ {\n\t\t\t\texpandProperties[propname] = properties[propname];\n\t\t\t\
+            }\n\t\t}\n\n\t\t// In MRAID v2.0, all expanded ads by definition cover\
+            \ the entire screen,\n\t\t// so the only property that the native side\
+            \ has to know about is useCustomClose.\n\t\t// (That is, the width and\
+            \ height properties are not needed by the native code.)\n\t\tif (expandProperties.useCustomClose\
+            \ !== oldUseCustomClose) {\n\t\t\tcallNative(\"useCustomClose?useCustomClose=\"\
+            \t+ expandProperties.useCus\u2026"}
+        childrenids: []
+        localName: script
+        nodeId: 8
+        nodeName: SCRIPT
+        nodeType: 1
+        nodeValue: ''
+        parent: 3
+        props: {}
+      10:
+        attributes: [src, 'https://static.yieldmo.com/ymmraid.min.js']
+        childNodeCount: 0
+        children: []
+        childrenids: []
+        localName: script
+        nodeId: 10
+        nodeName: SCRIPT
+        nodeType: 1
+        nodeValue: ''
+        parent: 3
+        props: {src: 'https://static.yieldmo.com/ymmraid.min.js'}
+      11:
+        attributes: []
+        childNodeCount: 1
+        children:
+        - {localName: '', nodeId: 12, nodeName: '#text', nodeType: 3, nodeValue: "window.ymmraid['deviceInformation']={\n\
+            \  \"ymaid\":\"41c1e533-1901-4916-97f6-a3725f7eb19b\",  \"bndl\":\"com.abc.abcnews\"\
+            ,  \"bndv\":\"3.09.06\",  \"osv\":\"23\",  \"sysn\":\"6.0\",  \"devm\"\
+            :\"Genymotion Google Nexus 5X - 6.0.0 - API 23 - 1080x1920\",  \"vid\"\
+            :\"unknown_vendor_id\",  \"lang\":\"en\",  \"locl\":\"USA\",  \"idfa\"\
+            :\"52e517b0-1940-4d01-914e-4dc3d59a0f44\",  \"lmt\":\"false\",  \"ymsv\"\
+            :\"4.0.0\",  \"os\":\"Android\",  \"scrd\":\"2\",  \"w\":\"1080\",  \"\
+            h\":\"1794\"}"}
+        childrenids: []
+        localName: script
+        nodeId: 11
+        nodeName: SCRIPT
+        nodeType: 1
+        nodeValue: ''
+        parent: 3
+        props: {}
+      13:
+        attributes: []
+        childNodeCount: 0
+        children: []
+        childrenids: []
+        localName: script
+        nodeId: 13
+        nodeName: SCRIPT
+        nodeType: 1
+        nodeValue: ''
+        parent: 3
+        props: {}
+      14:
+        attributes: [src, 'https://static.yieldmo.com/ym.native.js']
+        childNodeCount: 0
+        children: []
+        childrenids: []
+        localName: script
+        nodeId: 14
+        nodeName: SCRIPT
+        nodeType: 1
+        nodeValue: ''
+        parent: 3
+        props: {src: 'https://static.yieldmo.com/ym.native.js'}
+      15:
+        attributes: [type, text/css]
+        childNodeCount: 1
+        children:
+        - &id005
+          childrenids: []
+          localName: ''
+          nodeId: 16
+          nodeName: '#text'
+          nodeType: 3
+          nodeValue: '.ym{width:100% !important;margin: 0 auto;position:relative}.ym
+            iframe{margin:0 auto;width:100%}.ym:after{visibility:hidden;display:block;font-size:0;content:"
+            ";clear:both;height:0}'
+          parent: 15
+          props: {}
+        childrenids: [16]
+        h: 0.0
+        localName: style
+        nodeId: 15
+        nodeName: STYLE
+        nodeType: 1
+        nodeValue: ''
+        parent: 3
+        props: {type: text/css}
+        value: ''
+        w: 0.0
+        x: 0.0
+        y: 0.0
+      16: *id005
+      17:
+        attributes: [type, text/javascript, async, '', src, 'https://gum.criteo.com/sync?r=2&c=160&j=_ccb',
+          id, 4ebdbc0200a92044b000, class, ym_script]
+        childNodeCount: 0
+        children: []
+        childrenids: []
+        localName: script
+        nodeId: 17
+        nodeName: SCRIPT
+        nodeType: 1
+        nodeValue: ''
+        parent: 3
+        props: {async: '', class: ym_script, id: 4ebdbc0200a92044b000, src: 'https://gum.criteo.com/sync?r=2&c=160&j=_ccb',
+          type: text/javascript}
+      18:
+        attributes: [class, ym-background, style, 'display:none;position:fixed;top:0;left:0;border:0',
+          frameborder, '0', scrolling, 'no', src, 'https://static.yieldmo.com/blank.min.html?orig=http://localhost']
+        childNodeCount: 0
+        children: []
+        childrenids: []
+        contentDocument: {baseURL: 'https://static.yieldmo.com/blank.min.html?orig=http://localhost',
+          childNodeCount: 2, documentURL: 'https://static.yieldmo.com/blank.min.html?orig=http://localhost',
+          localName: '', nodeId: 19, nodeName: '#document', nodeType: 9, nodeValue: '',
+          xmlVersion: ''}
+        frameId: '6711.4'
+        h: 0.0
+        localName: iframe
+        nodeId: 18
+        nodeName: IFRAME
+        nodeType: 1
+        nodeValue: ''
+        parent: 3
+        props: {class: ym-background, frameborder: '0', scrolling: 'no', src: 'https://static.yieldmo.com/blank.min.html?orig=http://localhost',
+          style: 'display:none;position:fixed;top:0;left:0;border:0'}
+        value: ''
+        w: 0.0
+        x: 0.0
+        y: 0.0
+      20:
+        attributes: [id, ym_1600027, class, ym ym_format6, rend, '1', evs, '1']
+        childNodeCount: 1
+        children:
+        - &id006
+          attributes: [frameborder, '0', scrolling, 'no', src, 'about:blank', width,
+            100%, style, 'display:block !important;', height, '184']
+          childNodeCount: 0
+          children: []
+          childrenids: []
+          contentDocument: {baseURL: 'http://localhost/', childNodeCount: 2, documentURL: 'http://localhost/',
+            localName: '', nodeId: 23, nodeName: '#document', nodeType: 9, nodeValue: '',
+            xmlVersion: ''}
+          frameId: '6711.5'
+          h: 184.0
+          localName: iframe
+          nodeId: 22
+          nodeName: IFRAME
+          nodeType: 1
+          nodeValue: ''
+          parent: 20
+          props: {frameborder: '0', height: '184', scrolling: 'no', src: 'about:blank',
+            style: 'display:block !important;', width: 100%}
+          value: ''
+          w: 384.0
+          x: 0.0
+          y: 0.0
+        childrenids: [22]
+        h: 184.0
+        localName: div
+        nodeId: 20
+        nodeName: DIV
+        nodeType: 1
+        nodeValue: ''
+        parent: 4
+        props: {class: ym ym_format6, evs: '1', id: ym_1600027, rend: '1'}
+        pseudoElements:
+        - attributes: []
+          childNodeCount: 0
+          localName: <pseudo:after>
+          nodeId: 21
+          nodeName: <pseudo:after>
+          nodeType: 1
+          nodeValue: ''
+          pseudoType: after
+        value: ''
+        w: 384.0
+        x: 0.0
+        y: 0.0
+      22: *id006
+      24:
+        attributes: [type, text/javascript, async, '', src, 'https://ads.yieldmo.com/v002/t_ads/ads?ct=1491251905196&page_url=http%3A%2F%2Flocalhost%2F&pr=&adv=&p=1600027&bust=1491251905330&callback=_ym._processAds&_s=0&v=8.9.2&h=1794&w=1080&dnt=false&ae=0&bst=1491251905199&bet=1491251905318&ymid=4d5526d4008262610900&fh=367009010&dh=962495840&dmt=1491251905330&e=3&cr=&pft=1491251905330&description=&title=&ymaid=41c1e533-1901-4916-97f6-a3725f7eb19b&bndl=com.abc.abcnews&bndv=3.09.06&osv=23&sysn=6.0&devm=Genymotion%20Google%20Nexus%205X%20-%206.0.0%20-%20API%2023%20-%201080x1920&vid=unknown_vendor_id&lang=en&locl=USA&idfa=52e517b0-1940-4d01-914e-4dc3d59a0f44&lmt=false&ymsv=4.0.0&os=Android&scrd=2',
+          id, 8169963e007fa5a62d00, class, ym_script]
+        childNodeCount: 0
+        children: []
+        childrenids: []
+        localName: script
+        nodeId: 24
+        nodeName: SCRIPT
+        nodeType: 1
+        nodeValue: ''
+        parent: 4
+        props: {async: '', class: ym_script, id: 8169963e007fa5a62d00, src: 'https://ads.yieldmo.com/v002/t_ads/ads?ct=1491251905196&page_url=http%3A%2F%2Flocalhost%2F&pr=&adv=&p=1600027&bust=1491251905330&callback=_ym._processAds&_s=0&v=8.9.2&h=1794&w=1080&dnt=false&ae=0&bst=1491251905199&bet=1491251905318&ymid=4d5526d4008262610900&fh=367009010&dh=962495840&dmt=1491251905330&e=3&cr=&pft=1491251905330&description=&title=&ymaid=41c1e533-1901-4916-97f6-a3725f7eb19b&bndl=com.abc.abcnews&bndv=3.09.06&osv=23&sysn=6.0&devm=Genymotion%20Google%20Nexus%205X%20-%206.0.0%20-%20API%2023%20-%201080x1920&vid=unknown_vendor_id&lang=en&locl=USA&idfa=52e517b0-1940-4d01-914e-4dc3d59a0f44&lmt=false&ymsv=4.0.0&os=Android&scrd=2',
+          type: text/javascript}
+      25:
+        attributes: [id, ym_p, class, ym-background, style, 'display:none;position:fixed;top:0;left:0;border:0',
+          frameborder, '0', scrolling, 'no', width, '0', height, '0', src, 'https://s.yieldmo.com/partner.min.html#4d5526d4008262610900']
+        childNodeCount: 0
+        children: []
+        childrenids: []
+        contentDocument: {baseURL: 'https://s.yieldmo.com/partner.min.html', childNodeCount: 2,
+          documentURL: 'https://s.yieldmo.com/partner.min.html#4d5526d4008262610900',
+          localName: '', nodeId: 26, nodeName: '#document', nodeType: 9, nodeValue: '',
+          xmlVersion: ''}
+        frameId: '6711.6'
+        h: 0.0
+        localName: iframe
+        nodeId: 25
+        nodeName: IFRAME
+        nodeType: 1
+        nodeValue: ''
+        parent: 4
+        props: {class: ym-background, frameborder: '0', height: '0', id: ym_p, scrolling: 'no',
+          src: 'https://s.yieldmo.com/partner.min.html#4d5526d4008262610900', style: 'display:none;position:fixed;top:0;left:0;border:0',
+          width: '0'}
+        value: ''
+        w: 0.0
+        x: 0.0
+        y: 0.0
+      27:
+        attributes: [type, text/javascript, async, '', src, 'https://ads.yieldmo.com/v000/t_tkr/ev?type=r&y=0&x=0&pvt=1491251905307&pvid=1655860093238315651&plid=1600027&stime=1491251905479&etime=1491251905480',
+          id, d331bc06003c58ba9500, class, ym_script]
+        childNodeCount: 0
+        children: []
+        childrenids: []
+        localName: script
+        nodeId: 27
+        nodeName: SCRIPT
+        nodeType: 1
+        nodeValue: ''
+        parent: 4
+        props: {async: '', class: ym_script, id: d331bc06003c58ba9500, src: 'https://ads.yieldmo.com/v000/t_tkr/ev?type=r&y=0&x=0&pvt=1491251905307&pvid=1655860093238315651&plid=1600027&stime=1491251905479&etime=1491251905480',
+          type: text/javascript}
+      28:
+        attributes: [type, text/javascript, async, '', src, 'https://ads.yieldmo.com/v000/t_tkr/ev?type=dl&dltime=19&y=0&x=0&pvt=1491251905307&pvid=1655860093238315651&plid=1600027&stime=1491251905497&etime=1491251905498',
+          id, 37eac12d001326f4b500, class, ym_script]
+        childNodeCount: 0
+        children: []
+        childrenids: []
+        localName: script
+        nodeId: 28
+        nodeName: SCRIPT
+        nodeType: 1
+        nodeValue: ''
+        parent: 4
+        props: {async: '', class: ym_script, id: 37eac12d001326f4b500, src: 'https://ads.yieldmo.com/v000/t_tkr/ev?type=dl&dltime=19&y=0&x=0&pvt=1491251905307&pvid=1655860093238315651&plid=1600027&stime=1491251905497&etime=1491251905498',
+          type: text/javascript}
+      29:
+        attributes: [type, text/javascript, async, '', src, 'https://ads.yieldmo.com/v000/t_tkr/ev?type=v&pvid=1655860093238315651&plid=1600027&pvt=1491251905307&y=0&x=0&stime=1491251905691&etime=1491251905691',
+          id, adb69b35006d7802c700, class, ym_script]
+        childNodeCount: 0
+        children: []
+        childrenids: []
+        localName: script
+        nodeId: 29
+        nodeName: SCRIPT
+        nodeType: 1
+        nodeValue: ''
+        parent: 4
+        props: {async: '', class: ym_script, id: adb69b35006d7802c700, src: 'https://ads.yieldmo.com/v000/t_tkr/ev?type=v&pvid=1655860093238315651&plid=1600027&pvt=1491251905307&y=0&x=0&stime=1491251905691&etime=1491251905691',
+          type: text/javascript}
+    page: {base_h: 483, base_w: 1006, base_x: 37, base_y: 1663, empty: false, title: 'about:blank',
+      url: 'about:blank', ws_url: 'ws://127.0.0.1:12345/devtools/page/E45CE34E-35AF-4008-8CBC-B9B55FE5DB3B'}
+    parents: {2: 1, 3: 2, 4: 2, 5: 3, 6: 3, 7: 6, 8: 3, 9: 8, 10: 3, 11: 3, 12: 11,
+      13: 3, 14: 3, 15: 3, 16: 15, 17: 3, 18: 3, 20: 4, 22: 20, 24: 4, 25: 4, 27: 4,
+      28: 4, 29: 4}
+    scaling: 2.625
+  title: about:blank

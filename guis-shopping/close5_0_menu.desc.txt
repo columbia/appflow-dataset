@@ -1,0 +1,6 @@
+47 menu_list
+48 home
+51 search
+57 account
+65 help
+66 invite

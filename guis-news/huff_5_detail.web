@@ -1,0 +1,266 @@
+- page:
+    base_h: 131
+    base_w: 840
+    base_x: 1200
+    base_y: 989
+    html_h: 51.0
+    html_w: 320.0
+    nodes:
+      1:
+        baseURL: file:///android_asset/
+        childNodeCount: 1
+        children:
+        - &id001
+          attributes: []
+          childNodeCount: 2
+          children:
+          - &id002
+            attributes: []
+            childNodeCount: 5
+            childrenids: [5, 7, 8, 9, 11]
+            h: 0.0
+            localName: head
+            nodeId: 3
+            nodeName: HEAD
+            nodeType: 1
+            nodeValue: ''
+            parent: 2
+            props: {}
+            value: ''
+            w: 0.0
+            x: 0.0
+            y: 0.0
+          - &id003
+            attributes: []
+            childNodeCount: 3
+            childrenids: [13, 16, 17]
+            h: 51.0
+            localName: body
+            nodeId: 4
+            nodeName: BODY
+            nodeType: 1
+            nodeValue: ''
+            parent: 2
+            props: {}
+            value: ''
+            w: 320.0
+            x: 0.0
+            y: 0.0
+          childrenids: [3, 4]
+          h: 51.0
+          localName: html
+          nodeId: 2
+          nodeName: HTML
+          nodeType: 1
+          nodeValue: ''
+          parent: 1
+          props: {}
+          value: ''
+          w: 320.0
+          x: 0.0
+          y: 0.0
+        childrenids: [2]
+        documentURL: file:///android_asset/
+        localName: ''
+        nodeId: 1
+        nodeName: '#document'
+        nodeType: 9
+        nodeValue: ''
+        parent: -1
+        props: {}
+        xmlVersion: ''
+      2: *id001
+      3: *id002
+      4: *id003
+      5:
+        attributes: []
+        childNodeCount: 1
+        children:
+        - &id004
+          childrenids: []
+          localName: ''
+          nodeId: 6
+          nodeName: '#text'
+          nodeType: 3
+          nodeValue: body {margin:0;padding:0;}
+          parent: 5
+          props: {}
+        childrenids: [6]
+        h: 0.0
+        localName: style
+        nodeId: 5
+        nodeName: STYLE
+        nodeType: 1
+        nodeValue: ''
+        parent: 3
+        props: {}
+        value: ''
+        w: 0.0
+        x: 0.0
+        y: 0.0
+      6: *id004
+      7:
+        attributes: [src, mmadsdk/mm.js]
+        childNodeCount: 0
+        children: []
+        childrenids: []
+        localName: script
+        nodeId: 7
+        nodeName: SCRIPT
+        nodeType: 1
+        nodeValue: ''
+        parent: 3
+        props: {src: mmadsdk/mm.js}
+      8:
+        attributes: [src, mmadsdk/mraid.js]
+        childNodeCount: 0
+        children: []
+        childrenids: []
+        localName: script
+        nodeId: 8
+        nodeName: SCRIPT
+        nodeType: 1
+        nodeValue: ''
+        parent: 3
+        props: {src: mmadsdk/mraid.js}
+      9:
+        attributes: [type, text/javascript]
+        childNodeCount: 1
+        children:
+        - {localName: '', nodeId: 10, nodeName: '#text', nodeType: 3, nodeValue: window.interface.shouldOverlay(false);}
+        childrenids: []
+        localName: script
+        nodeId: 9
+        nodeName: SCRIPT
+        nodeType: 1
+        nodeValue: ''
+        parent: 3
+        props: {type: text/javascript}
+      11:
+        attributes: []
+        childNodeCount: 1
+        children:
+        - &id005
+          childrenids: []
+          localName: ''
+          nodeId: 12
+          nodeName: '#text'
+          nodeType: 3
+          nodeValue: body{margin:0px auto;} img{display:block; border:none; margin:0px
+            auto}
+          parent: 11
+          props: {}
+        childrenids: [12]
+        h: 0.0
+        localName: style
+        nodeId: 11
+        nodeName: STYLE
+        nodeType: 1
+        nodeValue: ''
+        parent: 3
+        props: {}
+        value: ''
+        w: 0.0
+        x: 0.0
+        y: 0.0
+      12: *id005
+      13:
+        attributes: [href, 'http://bank-27.ads.mp.mydas.mobi/handleClick.php5?apid=219125&acid=3178544&mtpid=342307&auid=mmid_541dd106de2f3d7fd620a8f8f48c8aea87_015b01fc9154&osid=27&urid=ysbm0pjgvnmesx4nmnD3WWIi&ri=27&mmid=8981&uip=128.59.21.53&orut=1491253974&carrier=215&aaid=52e517b0-1940-4d01-914e-4dc3d59a0f44&sdkid=113417&lat=40.8224&long=-73.9786']
+        childNodeCount: 2
+        children:
+        - &id006
+          attributes: [src, 'http://cdn.millennialmedia.com/creatives/213539/3178544.gif',
+            alt, Advertisement]
+          childNodeCount: 0
+          children: []
+          childrenids: []
+          h: 50.0
+          localName: img
+          nodeId: 14
+          nodeName: IMG
+          nodeType: 1
+          nodeValue: ''
+          parent: 13
+          props: {alt: Advertisement, src: 'http://cdn.millennialmedia.com/creatives/213539/3178544.gif'}
+          value: ''
+          w: 320.0
+          x: 0.0
+          y: 0.0
+        - &id007
+          attributes: [src, 'http://bank-27.ads.mp.mydas.mobi/getImage.php5?apid=219125&mode=live&acid=3178544&auid=mmid_541dd106de2f3d7fd620a8f8f48c8aea87_015b01fc9154&osid=27&urid=ysbm0pjgvnmesx4nmnD3WWIi&ri=27&mmid=8981&orut=1491253974&aaid=52e517b0-1940-4d01-914e-4dc3d59a0f44&carrier=215&sdkid=113417&lat=40.8224&long=-73.9786&countryId=226&mtpid=342307',
+            alt, '', width, '1', height, '1']
+          childNodeCount: 0
+          children: []
+          childrenids: []
+          h: 1.0
+          localName: img
+          nodeId: 15
+          nodeName: IMG
+          nodeType: 1
+          nodeValue: ''
+          parent: 13
+          props: {alt: '', height: '1', src: 'http://bank-27.ads.mp.mydas.mobi/getImage.php5?apid=219125&mode=live&acid=3178544&auid=mmid_541dd106de2f3d7fd620a8f8f48c8aea87_015b01fc9154&osid=27&urid=ysbm0pjgvnmesx4nmnD3WWIi&ri=27&mmid=8981&orut=1491253974&aaid=52e517b0-1940-4d01-914e-4dc3d59a0f44&carrier=215&sdkid=113417&lat=40.8224&long=-73.9786&countryId=226&mtpid=342307',
+            width: '1'}
+          value: ''
+          w: 1.0
+          x: 159.5
+          y: 50.0
+        childrenids: [14, 15]
+        h: 51.0
+        localName: a
+        nodeId: 13
+        nodeName: A
+        nodeType: 1
+        nodeValue: ''
+        parent: 4
+        props: {href: 'http://bank-27.ads.mp.mydas.mobi/handleClick.php5?apid=219125&acid=3178544&mtpid=342307&auid=mmid_541dd106de2f3d7fd620a8f8f48c8aea87_015b01fc9154&osid=27&urid=ysbm0pjgvnmesx4nmnD3WWIi&ri=27&mmid=8981&uip=128.59.21.53&orut=1491253974&carrier=215&aaid=52e517b0-1940-4d01-914e-4dc3d59a0f44&sdkid=113417&lat=40.8224&long=-73.9786'}
+        value: ''
+        w: 320.0
+        x: 0.0
+        y: 0.0
+      14: *id006
+      15: *id007
+      16:
+        attributes: [src, 'https://ad.atdmt.com/i/img;adv=11247200770957;adv.a=1384245;c.a=10720939;p.a=144348658;a.a=315389990;s.a=442286;ec=11247200807991;idfa=;idfa_lat=true;aaid=52e517b0-1940-4d01-914e-4dc3d59a0f44;aaid_lat=true;cache=1491253974',
+          style, 'display:none;', width, '1', height, '1', alt, '']
+        childNodeCount: 0
+        children: []
+        childrenids: []
+        h: 0.0
+        localName: img
+        nodeId: 16
+        nodeName: IMG
+        nodeType: 1
+        nodeValue: ''
+        parent: 4
+        props: {alt: '', height: '1', src: 'https://ad.atdmt.com/i/img;adv=11247200770957;adv.a=1384245;c.a=10720939;p.a=144348658;a.a=315389990;s.a=442286;ec=11247200807991;idfa=;idfa_lat=true;aaid=52e517b0-1940-4d01-914e-4dc3d59a0f44;aaid_lat=true;cache=1491253974',
+          style: 'display:none;', width: '1'}
+        value: ''
+        w: 0.0
+        x: 0.0
+        y: 0.0
+      17:
+        attributes: [src, 'https://ad.doubleclick.net/ddm/ad/N4492.AOL/B10720939.144348658;sz=1x1;ord=1491253974;dc_lat=;dc_rdid=52e517b0-1940-4d01-914e-4dc3d59a0f44;tag_for_child_directed_treatment=?',
+          style, 'display:none;', width, '1', height, '1', alt, '']
+        childNodeCount: 0
+        children: []
+        childrenids: []
+        h: 0.0
+        localName: img
+        nodeId: 17
+        nodeName: IMG
+        nodeType: 1
+        nodeValue: ''
+        parent: 4
+        props: {alt: '', height: '1', src: 'https://ad.doubleclick.net/ddm/ad/N4492.AOL/B10720939.144348658;sz=1x1;ord=1491253974;dc_lat=;dc_rdid=52e517b0-1940-4d01-914e-4dc3d59a0f44;tag_for_child_directed_treatment=?',
+          style: 'display:none;', width: '1'}
+        value: ''
+        w: 0.0
+        x: 0.0
+        y: 0.0
+    page: {base_h: 131, base_w: 840, base_x: 1200, base_y: 989, empty: false, title: 'about:blank',
+      url: 'about:blank', ws_url: 'ws://127.0.0.1:12345/devtools/page/879AC7AD-6B8F-4392-8B84-B574E38C670F'}
+    parents: {2: 1, 3: 2, 4: 2, 5: 3, 6: 5, 7: 3, 8: 3, 9: 3, 10: 9, 11: 3, 12: 11,
+      13: 4, 14: 13, 15: 13, 16: 4, 17: 4}
+    scaling: 2.625
+  title: about:blank

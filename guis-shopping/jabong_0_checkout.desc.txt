@@ -1,0 +1,7 @@
+36 addresses
+37 address_item
+43 address_edit
+73 subtotal
+76 tax
+79 shippingcost
+82 totalcost

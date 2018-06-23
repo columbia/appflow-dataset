@@ -1,0 +1,7 @@
+39 email
+40 password
+41 password2
+42 firstname
+43 lastname
+46 address
+52 register

@@ -1,0 +1,1 @@
+com.poqstudio.app.platform.boohoo/com.poqstudio.app.platform.view.main.MainActivity

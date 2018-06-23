@@ -1,0 +1,5 @@
+7 image
+9 title
+22 back
+24 bookmark
+25 share

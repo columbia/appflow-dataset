@@ -1,0 +1,2891 @@
+- page:
+    base_h: 2170
+    base_w: 1006
+    base_x: 1117
+    base_y: 1656
+    html_h: 827.0
+    html_w: 384.0
+    nodes:
+      162:
+        baseURL: https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FKearneyPolice%2Fposts%2F623389621188453&width=500
+        childNodeCount: 2
+        children:
+        - &id001
+          childrenids: []
+          localName: ''
+          nodeId: 163
+          nodeName: html
+          nodeType: 10
+          nodeValue: ''
+          parent: 162
+          props: {}
+          publicId: ''
+          systemId: ''
+        - &id002
+          attributes: [lang, en, id, facebook, class, 'svg ']
+          childNodeCount: 2
+          children:
+          - &id003
+            attributes: []
+            childNodeCount: 28
+            childrenids: [167, 168, 169, 171, 172, 174, 176, 178, 179, 180, 181, 182,
+              183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196,
+              198, 200]
+            h: 0.0
+            localName: head
+            nodeId: 165
+            nodeName: HEAD
+            nodeType: 1
+            nodeValue: ''
+            parent: 164
+            props: {}
+            value: ''
+            w: 0.0
+            x: 0.0
+            y: 0.0
+          - &id004
+            attributes: [dir, ltr, class, plugin chrome webkit x1 Locale_en_US]
+            childNodeCount: 4
+            childrenids: [317, 319, 321, 201]
+            h: 817.0
+            localName: body
+            nodeId: 166
+            nodeName: BODY
+            nodeType: 1
+            nodeValue: ''
+            parent: 164
+            props: {class: plugin chrome webkit x1 Locale_en_US, dir: ltr}
+            value: ''
+            w: 384.0
+            x: 0.0
+            y: 0.0
+          childrenids: [165, 166]
+          h: 827.0
+          localName: html
+          nodeId: 164
+          nodeName: HTML
+          nodeType: 1
+          nodeValue: ''
+          parent: 162
+          props: {class: 'svg ', id: facebook, lang: en}
+          value: ''
+          w: 384.0
+          x: 0.0
+          y: 0.0
+        childrenids: [163, 164]
+        documentURL: https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FKearneyPolice%2Fposts%2F623389621188453&width=500
+        localName: ''
+        nodeId: 162
+        nodeName: '#document'
+        nodeType: 9
+        nodeValue: ''
+        parent: -1
+        props: {}
+        xmlVersion: ''
+      163: *id001
+      164: *id002
+      165: *id003
+      166: *id004
+      167:
+        attributes: [charset, utf-8]
+        childNodeCount: 0
+        children: []
+        childrenids: []
+        localName: meta
+        nodeId: 167
+        nodeName: META
+        nodeType: 1
+        nodeValue: ''
+        parent: 165
+        props: {charset: utf-8}
+      168:
+        attributes: [name, referrer, content, default, id, meta_referrer]
+        childNodeCount: 0
+        children: []
+        childrenids: []
+        localName: meta
+        nodeId: 168
+        nodeName: META
+        nodeType: 1
+        nodeValue: ''
+        parent: 165
+        props: {content: default, id: meta_referrer, name: referrer}
+      169:
+        attributes: []
+        childNodeCount: 1
+        children:
+        - {localName: '', nodeId: 170, nodeName: '#text', nodeType: 3, nodeValue: 'function
+            envFlush(a){function b(c){for(var d in a)c[d]=a[d];}if(window.requireLazy){window.requireLazy([''Env''],b);}else{window.Env=window.Env||{};b(window.Env);}}envFlush({"ajaxpipe_token":"AXgO805Zg2dWNJ51","no_cookies":1,"khsh":"0`sj`e`rm`s-0fdu^gshdoer-0gc^eurf-3gc^eurf;1;enbtldou;fduDmdldourCxO`ld-2YLMIuuqSdptdru;qsnunuxqd;rdoe-0unjdojnx-0unjdojnx0-0gdubi^rdbsduOdv-0`sj`e`r-0q`xm`r-0StoRbs`qhof-0mhoj^q`xm`r","lean_require":true});'}
+        childrenids: []
+        localName: script
+        nodeId: 169
+        nodeName: SCRIPT
+        nodeType: 1
+        nodeValue: ''
+        parent: 165
+        props: {}
+      171:
+        attributes: []
+        childNodeCount: 0
+        children: []
+        childrenids: []
+        h: 0.0
+        localName: style
+        nodeId: 171
+        nodeName: STYLE
+        nodeType: 1
+        nodeValue: ''
+        parent: 165
+        props: {}
+        value: ''
+        w: 0.0
+        x: 0.0
+        y: 0.0
+      172:
+        attributes: []
+        childNodeCount: 1
+        children:
+        - {localName: '', nodeId: 173, nodeName: '#text', nodeType: 3, nodeValue: '__DEV__=0;CavalryLogger=false;(function(a){var
+            b=a.Env,c=a.performance;if(!c||!c.timing||!Object.getOwnPropertyDescriptor||!Object.defineProperty||!(b.timeslice_categories&&b.timeslice_categories.reflow))return;var
+            d=c.timing.navigationStart,e=location.search.indexOf(''detectreflows'')>-1,f=5;function
+            g(){return c.now()+d;}function h(){}function i(n,o,p){return function
+            q(){var r=void 0,s=0,t=a.ProfilingCounters,u=g();for(var v=arguments.length,w=Array(v),x=0;x<v;x++)w[x]=arguments[x];if(t){var
+            y=t.startTiming(''REFLOW'');r=n.apply(this,w);s=t.stopTiming(y);}else{r=n.apply(this,w);s=g()-u;}if(s>f){var
+            z=new Error(),aa=z.stack;m.push({contextConstructorName:this.constructor.name,description:p,duration:s,name:o,start:u,stack:aa});}return
+            r;};}function j(n,o,p){if(n==null){h(''`''+p+''` isn\''t own property
+            of %o.'',o);return false;}else if(n.configurable===false){h(''Cannot instrument
+            non-configurable property `''+p+''` from %o.'',o);return false;}else if(Object.prototype.hasOwnProperty.call(n,''value'')&&typeof
+            n.value!==''function''){h(''Cannot instrument property `''+p+''` with
+            value ''+(''`''+n.value+''` from %o''),o);return false;}return true;}function
+            k(n,o){var p=Object.getOwnPropertyDescriptor(n,o);if(j(p,n,o)){if(p.value)p.value=i(p.value,o,''function'');if(p.get)p.get=i(p.get,o,''getter'');if(p.set)p.set=i(p.set,o,''setter'');Object.defineProperty(n,o,p);}}function
+            l(n,o){o.forEach(k.bind(null,n));}l(a.window,[''getMatchedCSSRules'',''getComputedStyle'']);l(a.Document.prototype,[''scrollingElement'']);l(a.Element.prototype,[''clientLeft'',''clientTop'',''clientWidth'',''clientHeight'',''scrollWidth'',''scrollHeight'',''scrollLeft'',''scrollTop'',''getClientRects'',''getBoundingClientRect'',''scrollBy'',''scrollTo'',''scrollIntoView'',''scrollIntoViewIfNeeded'']);l(a.HTMLElement.prototype,[''offsetLeft'',''offsetTop'',''offsetWidth'',''offsetHeight'',''offsetParent'',''innerText'',''focus'']);l(a.HTMLInputElement.prototype,[''select'']);l(a.HTMLTextAreaElement.prototype,[''select'']);l(a.Range.prototype,[''getClientRects'',''getBoundingClientRect'']);l(a.MouseEvent.prototype,[''layerX'',''layerY'',''offsetX'',''offsetY'']);l(a.CSSStyleDeclaration.prototype,[''getPropertyValue'']);var
+            m=a.ReflowProfiler={_listener:null,_entries:[],push:function(n){if(this._listener){this._listener(n);}else
+            this._entries.push(n);},setListener:function(n){if(this._listener)throw
+            new Error(''It\''s not possible to more than one listener.'');this._listener=n;this._entries.forEach(function(o){return
+            n(o);});this._entries.length=0;}};})(this);'}
+        childrenids: []
+        localName: script
+        nodeId: 172
+        nodeName: SCRIPT
+        nodeType: 1
+        nodeValue: ''
+        parent: 165
+        props: {}
+      174:
+        attributes: []
+        childNodeCount: 1
+        children:
+        - {localName: '', nodeId: 175, nodeName: '#text', nodeType: 3, nodeValue: '<meta
+            http-equiv="refresh" content="0; URL=/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FKearneyPolice%2Fposts%2F623389621188453&amp;width=500&amp;_fb_noscript=1"
+            />'}
+        childrenids: []
+        localName: noscript
+        nodeId: 174
+        nodeName: NOSCRIPT
+        nodeType: 1
+        nodeValue: ''
+        parent: 165
+        props: {}
+      176:
+        attributes: []
+        childNodeCount: 1
+        children:
+        - &id005
+          childrenids: []
+          localName: ''
+          nodeId: 177
+          nodeName: '#text'
+          nodeType: 3
+          nodeValue: Facebook
+          parent: 176
+          props: {}
+        childrenids: [177]
+        h: 0.0
+        localName: title
+        nodeId: 176
+        nodeName: TITLE
+        nodeType: 1
+        nodeValue: ''
+        parent: 165
+        props: {}
+        value: ''
+        w: 0.0
+        x: 0.0
+        y: 0.0
+      177: *id005
+      178:
+        attributes: [name, format-detection, content, telephone=no]
+        childNodeCount: 0
+        children: []
+        childrenids: []
+        localName: meta
+        nodeId: 178
+        nodeName: META
+        nodeType: 1
+        nodeValue: ''
+        parent: 165
+        props: {content: telephone=no, name: format-detection}
+      179:
+        attributes: [type, text/css, rel, stylesheet, href, 'https://static.xx.fbcdn.net/rsrc.php/v3/ym/r/w6jtiQYGUk8.css',
+          data-bootloader-hash, cH+of, crossorigin, anonymous]
+        childNodeCount: 0
+        children: []
+        childrenids: []
+        localName: link
+        nodeId: 179
+        nodeName: LINK
+        nodeType: 1
+        nodeValue: ''
+        parent: 165
+        props: {crossorigin: anonymous, data-bootloader-hash: cH+of, href: 'https://static.xx.fbcdn.net/rsrc.php/v3/ym/r/w6jtiQYGUk8.css',
+          rel: stylesheet, type: text/css}
+      180:
+        attributes: [type, text/css, rel, stylesheet, href, 'https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/V8kOPV4FMoa.css',
+          data-bootloader-hash, LAOVs, crossorigin, anonymous]
+        childNodeCount: 0
+        children: []
+        childrenids: []
+        localName: link
+        nodeId: 180
+        nodeName: LINK
+        nodeType: 1
+        nodeValue: ''
+        parent: 165
+        props: {crossorigin: anonymous, data-bootloader-hash: LAOVs, href: 'https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/V8kOPV4FMoa.css',
+          rel: stylesheet, type: text/css}
+      181:
+        attributes: [type, text/css, rel, stylesheet, href, 'https://static.xx.fbcdn.net/rsrc.php/v3/yR/r/DgLDS_gTFko.css',
+          data-bootloader-hash, LW7QW, data-permanent, '1', crossorigin, anonymous]
+        childNodeCount: 0
+        children: []
+        childrenids: []
+        localName: link
+        nodeId: 181
+        nodeName: LINK
+        nodeType: 1
+        nodeValue: ''
+        parent: 165
+        props: {crossorigin: anonymous, data-bootloader-hash: LW7QW, data-permanent: '1',
+          href: 'https://static.xx.fbcdn.net/rsrc.php/v3/yR/r/DgLDS_gTFko.css', rel: stylesheet,
+          type: text/css}
+      182:
+        attributes: [type, text/css, rel, stylesheet, href, 'https://static.xx.fbcdn.net/rsrc.php/v3/yv/r/eWhRCPUINH1.css',
+          data-bootloader-hash, P0GYH, data-permanent, '1', crossorigin, anonymous]
+        childNodeCount: 0
+        children: []
+        childrenids: []
+        localName: link
+        nodeId: 182
+        nodeName: LINK
+        nodeType: 1
+        nodeValue: ''
+        parent: 165
+        props: {crossorigin: anonymous, data-bootloader-hash: P0GYH, data-permanent: '1',
+          href: 'https://static.xx.fbcdn.net/rsrc.php/v3/yv/r/eWhRCPUINH1.css', rel: stylesheet,
+          type: text/css}
+      183:
+        attributes: [type, text/css, rel, stylesheet, href, 'https://static.xx.fbcdn.net/rsrc.php/v3/y6/r/9aBWkCSKQPz.css',
+          data-bootloader-hash, 7hd4t, data-permanent, '1', crossorigin, anonymous]
+        childNodeCount: 0
+        children: []
+        childrenids: []
+        localName: link
+        nodeId: 183
+        nodeName: LINK
+        nodeType: 1
+        nodeValue: ''
+        parent: 165
+        props: {crossorigin: anonymous, data-bootloader-hash: 7hd4t, data-permanent: '1',
+          href: 'https://static.xx.fbcdn.net/rsrc.php/v3/y6/r/9aBWkCSKQPz.css', rel: stylesheet,
+          type: text/css}
+      184:
+        attributes: [type, text/css, rel, stylesheet, href, 'https://static.xx.fbcdn.net/rsrc.php/v3/yn/r/qG0nlbA6KEG.css',
+          data-bootloader-hash, Y2FLv, data-permanent, '1', crossorigin, anonymous]
+        childNodeCount: 0
+        children: []
+        childrenids: []
+        localName: link
+        nodeId: 184
+        nodeName: LINK
+        nodeType: 1
+        nodeValue: ''
+        parent: 165
+        props: {crossorigin: anonymous, data-bootloader-hash: Y2FLv, data-permanent: '1',
+          href: 'https://static.xx.fbcdn.net/rsrc.php/v3/yn/r/qG0nlbA6KEG.css', rel: stylesheet,
+          type: text/css}
+      185:
+        attributes: [type, text/css, rel, stylesheet, href, 'data:text/css; charset=utf-8,._5x46{margin-bottom:6px}._5va3{margin-bottom:-6px}._5va4{padding-bottom:6px}._5v3q
+            ._5x46{margin-bottom:11px}._5v3q ._5pa- ._5x46{margin-bottom:7px}._5g-l{border-bottom:1px
+            solid #e9e9e9;color:#7f7f7f;display:block;font-size:13px;margin:-18px
+            0 14px;padding:13px 0 13px}._5v3q ._5g-l{border-bottom-color:#e5e5e5;color:#90949c;line-height:15px;margin:-12px
+            0 12px;padding:10px 23px 10px 0}._3ccb ._5g-l{font-size:12px;padding-bottom:9px;padding-top:11px}._49gl
+            ._5g-l{display:none}._5g-l._4sia{margin:0;padding:10px 0 10px 12px}#bootloader_TvoAA{height:42px;}.bootloader_TvoAA{display:block!important;}',
+          data-bootloader-hash, TvoAA, crossorigin, anonymous]
+        childNodeCount: 0
+        children: []
+        childrenids: []
+        localName: link
+        nodeId: 185
+        nodeName: LINK
+        nodeType: 1
+        nodeValue: ''
+        parent: 165
+        props: {crossorigin: anonymous, data-bootloader-hash: TvoAA, href: 'data:text/css;
+            charset=utf-8,._5x46{margin-bottom:6px}._5va3{margin-bottom:-6px}._5va4{padding-bottom:6px}._5v3q
+            ._5x46{margin-bottom:11px}._5v3q ._5pa- ._5x46{margin-bottom:7px}._5g-l{border-bottom:1px
+            solid #e9e9e9;color:#7f7f7f;display:block;font-size:13px;margin:-18px
+            0 14px;padding:13px 0 13px}._5v3q ._5g-l{border-bottom-color:#e5e5e5;color:#90949c;line-height:15px;margin:-12px
+            0 12px;padding:10px 23px 10px 0}._3ccb ._5g-l{font-size:12px;padding-bottom:9px;padding-top:11px}._49gl
+            ._5g-l{display:none}._5g-l._4sia{margin:0;padding:10px 0 10px 12px}#bootloader_TvoAA{height:42px;}.bootloader_TvoAA{display:block!important;}',
+          rel: stylesheet, type: text/css}
+      186:
+        attributes: [type, text/css, rel, stylesheet, href, 'https://static.xx.fbcdn.net/rsrc.php/v3/y2/r/xyqrFMR_uWw.css',
+          data-bootloader-hash, Jfedy, crossorigin, anonymous]
+        childNodeCount: 0
+        children: []
+        childrenids: []
+        localName: link
+        nodeId: 186
+        nodeName: LINK
+        nodeType: 1
+        nodeValue: ''
+        parent: 165
+        props: {crossorigin: anonymous, data-bootloader-hash: Jfedy, href: 'https://static.xx.fbcdn.net/rsrc.php/v3/y2/r/xyqrFMR_uWw.css',
+          rel: stylesheet, type: text/css}
+      187:
+        attributes: [type, text/css, rel, stylesheet, href, 'https://static.xx.fbcdn.net/rsrc.php/v3/yX/r/_IdqoVlCAHt.css',
+          data-bootloader-hash, TnQ0F, data-permanent, '1', crossorigin, anonymous]
+        childNodeCount: 0
+        children: []
+        childrenids: []
+        localName: link
+        nodeId: 187
+        nodeName: LINK
+        nodeType: 1
+        nodeValue: ''
+        parent: 165
+        props: {crossorigin: anonymous, data-bootloader-hash: TnQ0F, data-permanent: '1',
+          href: 'https://static.xx.fbcdn.net/rsrc.php/v3/yX/r/_IdqoVlCAHt.css', rel: stylesheet,
+          type: text/css}
+      188:
+        attributes: [src, 'https://static.xx.fbcdn.net/rsrc.php/v3/y6/r/_991G40RCJm.js',
+          data-bootloader-hash, vWs7J, crossorigin, anonymous]
+        childNodeCount: 0
+        children: []
+        childrenids: []
+        localName: script
+        nodeId: 188
+        nodeName: SCRIPT
+        nodeType: 1
+        nodeValue: ''
+        parent: 165
+        props: {crossorigin: anonymous, data-bootloader-hash: vWs7J, src: 'https://static.xx.fbcdn.net/rsrc.php/v3/y6/r/_991G40RCJm.js'}
+      189:
+        attributes: [src, 'https://static.xx.fbcdn.net/rsrc.php/v3ih_S4/yS/l/en_US/9eqafs4UtCK.js',
+          data-bootloader-hash, CAt/b, crossorigin, anonymous]
+        childNodeCount: 0
+        children: []
+        childrenids: []
+        localName: script
+        nodeId: 189
+        nodeName: SCRIPT
+        nodeType: 1
+        nodeValue: ''
+        parent: 165
+        props: {crossorigin: anonymous, data-bootloader-hash: CAt/b, src: 'https://static.xx.fbcdn.net/rsrc.php/v3ih_S4/yS/l/en_US/9eqafs4UtCK.js'}
+      190:
+        attributes: [src, 'https://static.xx.fbcdn.net/rsrc.php/v3iB084/yy/l/en_US/T9bc_9nvUZB.js',
+          data-bootloader-hash, uBPlU, crossorigin, anonymous]
+        childNodeCount: 0
+        children: []
+        childrenids: []
+        localName: script
+        nodeId: 190
+        nodeName: SCRIPT
+        nodeType: 1
+        nodeValue: ''
+        parent: 165
+        props: {crossorigin: anonymous, data-bootloader-hash: uBPlU, src: 'https://static.xx.fbcdn.net/rsrc.php/v3iB084/yy/l/en_US/T9bc_9nvUZB.js'}
+      191:
+        attributes: [src, 'https://static.xx.fbcdn.net/rsrc.php/v3ivSr4/yr/l/en_US/KFecu3aXCf6.js',
+          data-bootloader-hash, DeGAe, crossorigin, anonymous]
+        childNodeCount: 0
+        children: []
+        childrenids: []
+        localName: script
+        nodeId: 191
+        nodeName: SCRIPT
+        nodeType: 1
+        nodeValue: ''
+        parent: 165
+        props: {crossorigin: anonymous, data-bootloader-hash: DeGAe, src: 'https://static.xx.fbcdn.net/rsrc.php/v3ivSr4/yr/l/en_US/KFecu3aXCf6.js'}
+      192:
+        attributes: [src, 'https://static.xx.fbcdn.net/rsrc.php/v3i4lc4/yK/l/en_US/O6hiftKB_JF.js',
+          data-bootloader-hash, RxABM, crossorigin, anonymous]
+        childNodeCount: 0
+        children: []
+        childrenids: []
+        localName: script
+        nodeId: 192
+        nodeName: SCRIPT
+        nodeType: 1
+        nodeValue: ''
+        parent: 165
+        props: {crossorigin: anonymous, data-bootloader-hash: RxABM, src: 'https://static.xx.fbcdn.net/rsrc.php/v3i4lc4/yK/l/en_US/O6hiftKB_JF.js'}
+      193:
+        attributes: [src, 'https://static.xx.fbcdn.net/rsrc.php/v3/yP/r/Gwob1yTgNVa.js',
+          data-bootloader-hash, f8a07, crossorigin, anonymous]
+        childNodeCount: 0
+        children: []
+        childrenids: []
+        localName: script
+        nodeId: 193
+        nodeName: SCRIPT
+        nodeType: 1
+        nodeValue: ''
+        parent: 165
+        props: {crossorigin: anonymous, data-bootloader-hash: f8a07, src: 'https://static.xx.fbcdn.net/rsrc.php/v3/yP/r/Gwob1yTgNVa.js'}
+      194:
+        attributes: [src, 'https://static.xx.fbcdn.net/rsrc.php/v3/yu/r/1b8THJW7hKc.js',
+          data-bootloader-hash, GtNWn, crossorigin, anonymous]
+        childNodeCount: 0
+        children: []
+        childrenids: []
+        localName: script
+        nodeId: 194
+        nodeName: SCRIPT
+        nodeType: 1
+        nodeValue: ''
+        parent: 165
+        props: {crossorigin: anonymous, data-bootloader-hash: GtNWn, src: 'https://static.xx.fbcdn.net/rsrc.php/v3/yu/r/1b8THJW7hKc.js'}
+      195:
+        attributes: [src, 'https://static.xx.fbcdn.net/rsrc.php/v3i1Ip4/yD/l/en_US/0W8u3SKGjt_.js',
+          data-bootloader-hash, Q8t7E, crossorigin, anonymous]
+        childNodeCount: 0
+        children: []
+        childrenids: []
+        localName: script
+        nodeId: 195
+        nodeName: SCRIPT
+        nodeType: 1
+        nodeValue: ''
+        parent: 165
+        props: {crossorigin: anonymous, data-bootloader-hash: Q8t7E, src: 'https://static.xx.fbcdn.net/rsrc.php/v3i1Ip4/yD/l/en_US/0W8u3SKGjt_.js'}
+      196:
+        attributes: []
+        childNodeCount: 1
+        children:
+        - {localName: '', nodeId: 197, nodeName: '#text', nodeType: 3, nodeValue: "require(\"\
+            TimeSlice\").guard(function() {require(\"ServerJSDefine\").handleDefines([[\"\
+            BootloaderConfig\",[],{\"maxJsRetries\":0,\"jsRetries\":null,\"jsRetryAbortNum\"\
+            :2,\"jsRetryAbortTime\":5,\"payloadEndpointURI\":\"https:\\/\\/www.facebook.com\\\
+            /ajax\\/haste-response\\/\",\"assumeNotNonblocking\":false,\"assumePermanent\"\
+            :false},329],[\"CurrentCommunityInitialData\",[],{},490],[\"CurrentUserInitialData\"\
+            ,[],{\"USER_ID\":\"0\",\"ACCOUNT_ID\":\"0\"},270],[\"DTSGInitialData\"\
+            ,[],{},258],[\"ISB\",[],{},330],[\"LSD\",[],{},323],[\"SiteData\",[],{\"\
+            revision\":2932333,\"tier\":\"\",\"push_phase\":\"V3\",\"pkg_cohort\"\
+            :\"PHASED:DEFAULT\",\"pkg_cohort_key\":\"__pc\",\"haste_site\":\"www\"\
+            ,\"be_mode\":-1,\"be_key\":\"__be\",\"is_rtl\":false,\"features\":\"iw\"\
+            ,\"spin\":false,\"vip\":\"31.13.80.36\"},317],[\"SprinkleConfig\",[],{\"\
+            param_name\":\"ttstamp\"},2111],[\"CSSLoaderConfig\",[],{\"timeout\":5000,\"\
+            modulePrefix\":\"BLCSS:\",\"loadEventSupported\":true},619],[\"LinkReactUnsafeHrefConfig\"\
+            ,[],{\"LinkHrefChecker\":null},1182],[\"LinkshimHandlerConfig\",[],{\"\
+            supports_meta_referrer\":false,\"default_meta_referrer_policy\":\"default\"\
+            ,\"switched_meta_referrer_policy\":\"origin\",\"link_react_default_hash\"\
+            :\"ATNjBegm8qbH5aUoOuUq3-_uBoT5t6AhI6oZko7D9lSW7mEzVYx4GWHBijY-JZ1NOZNk7DTdXetR-SCmE1bg3CaUFxyTStI6gA\"\
+            ,\"untrusted_link_default_hash\":\"ATN-gsxxiUzLus3NM6k9JXlEhTYUDin1Zes9a8VCQQvvCyCwOM9GGwdSsyIalbe9tRI2IwIvDCODsvk52oX2Ir8QuKTGQtmCPg\"\
+            ,\"linkshim_host\":\"l.facebook.com\",\"use_rel_no_opener\":false,\"always_use_https\"\
+            :false},27],[\"CdnAkamaiDomainsConfig\",[],{\"fbcdnhdsvideo-vh.akamaihd.net\"\
+            :0,\"fbcdn-creative-a.akamaihd.net\":1,\"fbcdn-dragon-a.akamaihd.net\"\
+            :2,\"fbcdn-external-a.akamaihd.net\":3,\"fbcdn-gtvideo-a-a.akamaihd.net\"\
+            :4,\"fbcdn-gtvideo-b-a.akamaihd.net\":5,\"fbcdn-gtvideo-c-a.akamaihd.net\"\
+            :6,\"fbcdn-gtvideo-d-a.akamaihd.net\":7,\"fbcdn-gtvideo-e-a.akamaihd.net\"\
+            :8,\"fbcdn-gtvideo-f-a.akamaihd.net\":9,\"fbcdn-gtvideo-g-a.akamaihd.net\"\
+            :10,\"fbcdn-gtvideo-h-a.akamaihd.net\":11,\"fbcdn-gtvideo-i-a.akamaihd.net\"\
+            :12,\"fbcdn-gtvideo-j-a.akamaihd.net\":13,\"fbcdn-gtvideo-k-a.akamaihd.net\"\
+            :14,\"fbcdn-gtvideo-l-a.akamaihd.net\":15,\"fbcdn-gtvideo-m-a.akamaihd.net\"\
+            :16,\"fbcdn-gtvideo-n-a.akamaihd.net\":17,\"fbcdn-gtvideo-o-a.akamaihd.net\"\
+            :18,\"fbcdn-gtvideo-p-a.akamaihd.net\":19,\"fbcdn-iphotos-a-a.akamaihd.net\"\
+            :20,\"fbcdn-iphotos-a.akamaihd.net\":21,\"fbcdn-iphotos-b-a.akamaihd.net\"\
+            :22,\"fbcdn-iphotos-c-a.akamaihd.net\":23,\"fbcdn-iphotos-d-a.akamaihd.net\"\
+            :24,\"fbcdn-iphotos-e-a.akamaihd.net\":25,\"fbcdn-iphotos-f-a.akamaihd.net\"\
+            :26,\"fbcdn-iphotos-g-a.akamaihd.net\":27,\"fbcdn-iphotos-h-a.akamaihd.net\"\
+            :28,\"fbcdn-photos-a-a.akamaihd.net\":29,\"fbcdn-photos-a.akamaihd.net\"\
+            :30,\"fbcdn-photos-b-a.akamaihd.net\":31,\"fbcdn-photos-c-a.akamaihd.net\"\
+            :32,\"fbcdn-photos-d-a.akamaihd.net\":33,\"fbcdn-photos-e-a.akamaihd.net\"\
+            :34,\"fbcdn-photos-f-a.akamaihd.net\":35,\"fbcdn-photos-g-a.akamaihd.net\"\
+            :36,\"fbcdn-photos-h-a.akamaihd.net\":37,\"fbcdn-profile-a.akamaihd.net\"\
+            :38,\"fbcdn-sphotos-a-a.akamaihd.net\":39,\"fbcdn-sphotos-b-a.akamaihd.net\"\
+            :40,\"fbcdn-sphotos-c-a.akamaihd.net\":41,\"fbcdn-sphotos-d-a.akamaihd.net\"\
+            :42,\"fbcdn-sphotos-e-a.akamaihd.net\":43,\"fbcdn-sphotos-f-a.akamaihd.net\"\
+            :44,\"fbcdn-sphotos-g-a.akamaihd.net\":45,\"fbcdn-sphotos-h-a.akamaihd.net\"\
+            :46,\"fbcdn-static-a.akamaihd.net\":47,\"fbcdn-video-a-a.akamaihd.net\"\
+            :48,\"fbcdn-video-a.akamaihd.net\":49,\"fbcdn-video-b-a.akamaihd.net\"\
+            :50,\"fbcdn-video-c-a.akamaihd.net\":51,\"fbcdn-video-d-a.akamaihd.net\"\
+            :52,\"fbcdn-video-e-a.akamaihd.net\":53,\"fbcdn-video-f-a.akamaihd.net\"\
+            :54,\"fbcdn-video-g-a.akamaihd.net\":55,\"fbcdn-video-h-a.akamaihd.net\"\
+            :56,\"fbcdn-video-i-a.akamaihd.net\":57,\"fbcdn-video-j-a.akamaihd.net\"\
+            :58,\"fbcdn-video-k-a.akamaihd.net\":59,\"fbcdn-video-l-a.akamaihd.net\"\
+            :60,\"fbcdn-video-m-a.akamaihd.net\":61,\"fbcdn-video-n-a.akamaihd.net\"\
+            :62,\"fbcdn-video-o-a.akamaihd.net\":63,\"fbcdn-video-p-a.akamaihd.net\"\
+            :64,\"fbcdn-vthumb-a.akamaihd.net\":65,\"fbexternal-a.akamaihd.net\":66,\"\
+            fbstatic-a.akamaihd.net\":67,\"lookbackvideo1-a.akamaihd.net\":68,\"lookbackvideo2-a.akamaihd.net\"\
+            :69,\"lookbackvideo3-a.akamaihd.net\":70,\"lookbackvideo4-a.akamaihd.net\"\
+            :71,\"lookbackvideo5-a.akamaihd.net\":72,\"lookbackvideo6-a.akamaihd.net\"\
+            :73,\"lookbackvideo7-a.akamaihd.net\":74,\"lookbackvideo8-a.akamaihd.net\"\
+            :75,\"igexternal-a.akamaihd.net\":76,\"fbmentionslive-a.akamaihd.net\"\
+            :77,\"fblive-a.akamaihd.net\":78,\"fbcdn-static-a-a.akamaihd.net\":79,\"\
+            fbcdn-static-b-a.akamaihd.net\":80,\"fb-s-a-a.akamaihd.net\":81,\"fb-s-b-a.akamaihd.net\"\
+            :82,\"fb-s-c-a.akamaihd.net\":83,\"fb-s-d-a.akamaihd.net\":84,\"fb-l-a-a.akamaihd.net\"\
+            :85,\"fb-l-b-a.akamaihd.net\":86,\"fb-l-c-a.akamaihd.net\":87,\"fb-l-d-a.akamaihd.net\"\
+            :88},1634],[\"CoreWarningGK\",[],{\"forceWarning\":false},725],[\"BanzaiConfig\"\
+            ,[],{\"EXPIRY\":86400000,\"MAX_SIZE\":10000,\"MAX_WAIT\":150000,\"RESTORE_WAIT\"\
+            :150000,\"blacklist\":[\"time_spent\"],\"gks\":{\"boosted_component\"\
+            :true,\"boosted_pagelikes\":true,\"boosted_posts\":true,\"boosted_website\"\
+            :true,\"jslogger\":true,\"mercury_send_error_logging\":true,\"pages_client_logging\"\
+            :true,\"platform_oauth_client_events\":true,\"useraction\":true,\"videos\"\
+            :true,\"visibility_tracking\":true,\"graphexplorer\":true,\"gqls_web_logging\"\
+            :true}},7],[\"UserAgentData\",[],{\"browserArchitecture\":\"32\",\"browserFullVersion\"\
+            :\"44.0.2403.119\",\"browserMinorVersion\":0,\"browserName\":\"Chrome\"\
+            ,\"browserVersion\":44,\"deviceName\":\"Unknown\",\"engineName\":\"WebKit\"\
+            ,\"engineVersion\":\"537.36\",\"platformArchitecture\":\"32\",\"platformName\"\
+            :\"Android\",\"platformVersion\":\"6\",\"platformFullVersion\":\"6.0\"\
+            },527],[\"ZeroRewriteRules\",[],{\"rewrite_rules\":{},\"whitelist\":{\"\
+            \\/hr\\/r\":1,\"\\/hr\\/p\":1,\"\\/zero\\/unsupported_browser\\/\":1,\"\
+            \\/zero\\/policy\\/optin\":1,\"\\/zero\\/optin\\/write\\/\":1,\"\\/zero\\\
+            /optin\\/legal\\/\":1,\"\\/zero\\/optin\\/free\\/\":1,\"\\/about\\/privacy\\\
+            /\":1,\"\\/zero\\/toggle\\/welcome\\/\":1,\"\\/work\\/landing\":1,\"\\\
+            /work\\/login\\/\":1,\"\\/work\\/email\\/\":1,\"\\/ai.php\":1,\"\\/js_dialog_resources\\\
+            /dialog_descriptions_android.json\":1,\"\\/connect\\/jsdialog\\/MPlatformAppInvitesJSDialog\\\
+            /\":1,\"\\/connect\\/jsdialog\\/MPlatformOAuthShimJSDialog\\/\":1,\"\\\
+            /connect\\/jsdialog\\/MPlatformLikeJSDialog\\/\":1,\"\\/qp\\/interstitial\\\
+            /\":1,\"\\/qp\\/action\\/redirect\\/\":1,\"\\/qp\\/action\\/close\\/\"\
+            :1,\"\\/zero\\/support\\/ineligible\\/\":1,\"\\/zero_balance_redirect\\\
+            /\":1,\"\\/zero_balance_redirect\":1,\"\\/l.php\":1,\"\\/lsr.php\":1,\"\
+            \\/ajax\\/dtsg\\/\":1,\"\\/checkpoint\\/block\\/\":1,\"\\/exitdsite\"\
+            :1,\"\\/zero\\/balance\\/pixel\\/\":1,\"\\/zero\\/balance\\/\":1,\"\\\
+            /zero\\/balance\\/carrier_landing\\/\":1,\"\\/tr\":1,\"\\/tr\\/\":1,\"\
+            \\/sem_campaigns\\/sem_pixel_test\\/\":1,\"\\/bookmarks\\/flyout\\/body\\\
+            /\":1,\"\\/zero\\/subno\\/\":1}},1478],[\"AsyncFeatureDeployment\",[],{},1765],[\"\
+            AsyncRequestConfig\",[],{\"retryOnNetworkError\":\"1\",\"logAsyncRequest\"\
+            :false,\"immediateDispatch\":false},328],[\"PromiseUsePolyfillSetImmediateGK\"\
+            ,[],{\"www_always_use_polyfill_setimmediate\":false},2190],[\"SessionNameConfig\"\
+            ,[],{\"seed\":\"0ipB\"},757],[\"ZeroCategoryHeader\",[],{},1127],[\"TrackingConfig\"\
+            ,[],{\"domain\":\"https:\\/\\/pixel.facebook.com\"},325],[\"WebSpeedExperiments\"\
+            ,[],{\"non_blocking_tracker\":false,\"non_blocking_logger\":false},1160],[\"\
+            BigPipeExperiments\",[],{\"link_images_to_pagelets\":false},907],[\"ErrorSignalConfig\"\
+            ,[],{\"uri\":\"https:\\/\\/error.facebook.com\\/common\\/scribe_endpoint.php\"\
+            },319],[\"EventConfig\",[],{\"sampling\":{\"bandwidth\":0,\"play\":0,\"\
+            playing\":0,\"progress\":0,\"pause\":0,\"ended\":0,\"seeked\":0,\"seeking\"\
+            :0,\"waiting\":0,\"loadedmetadata\":0,\"canplay\":0,\"selectionchange\"\
+            :0,\"change\":0,\"timeupdate\":2000000,\"adaptation\":0,\"focus\":0,\"\
+            blur\":0,\"load\":0,\"error\":0,\"message\":0,\"abort\":0,\"storage\"\
+            :0,\"scroll\":10000,\"mousemove\":20000,\"mouseover\":10000,\"mouseout\"\
+            :10000,\"mousewheel\":20000,\"MSPointerMove\":10000,\"keydown\":0.1,\"\
+            click\":0.01,\"__100ms\":0.001,\"__default\":100000,\"__min\":1000}},1726],[\"\
+            ServerNonce\",[],{\"ServerNonce\":\"Io_G6ACXGstAfDLzhS2ILe\"},141],[\"\
+            ReactFiberErrorLoggerConfig\",[],{\"bugNubClickTargetClassName\":null},2115],[\"\
+            ReactGK\",[],{\"logTopLevelRenders\":false,\"domIsFiber\":true,\"fiberAsyncScheduling\"\
+            :false,\"prepareNewChildrenBeforeUnmountInStack\":true,\"unmountOnBeforeClearCanvas\"\
+            :false},998],[\"PhotoSnowliftActionsGating\",[],{\"ALLOW_MAKE_PROFILE_PICTURE_BUTTON\"\
+            :false,\"skipUnfixed\":true},887],[\"AccessibilityConfig\",[],{\"a11yLogicalGridComponent\"\
+            :false,\"a11yNewsfeedStoryEnumeration\":false,\"a11yInitialDialogFocusElement\"\
+            :true,\"a11yNUXDialog\":true},1227],[\"TimeSliceInteractionCoinflips\"\
+            ,[],{\"default_rate\":1000,\"lite_default_rate\":100,\"interaction_to_lite_coinflip\"\
+            :{\"Event\":100},\"interaction_to_coinflip\":{\"async_request\":0,\"video_psr\"\
+            :1,\"video_stall\":25,\"snowlift_open_autoclosed\":0,\"Event\":2,\"cms_editor\"\
+            :1,\"page_messaging_shortlist\":1,\"ffd_chart_loading\":1},\"enable_heartbeat\"\
+            :true},1799],[\"ServiceWorkerBackgroundSyncBanzaiGK\",[],{\"sw_background_sync_banzai\"\
+            :false},1621],[\"CookieCoreConfig\",[],{\"_ga\":{\"i\":1,\"t\":63072000},\"\
+            a11y\":{},\"act\":{},\"ar\":{},\"av\":{},\"bd\":{},\"bdluid\":{},\"bdsess\"\
+            :{},\"rc\":{\"t\":604800},\"bva\":{},\"c_user\":{},\"campaign_click_url\"\
+            :{\"t\":2592000},\"cavalry_cohort\":{},\"checkpoint\":{},\"csm\":{\"i\"\
+            :1},\"csrf\":{},\"datr\":{\"i\":1,\"t\":63072000},\"dats\":{\"t\":15552000},\"\
+            dbln\":{\"p\":\"\\/login\\/device-based\\/\",\"t\":63072000},\"dch\":{},\"\
+            ddid\":{\"p\":\"\\/deferreddeeplink\\/\",\"t\":2419200},\"dnonce\":{\"\
+            i\":1},\"dpr\":{},\"employee_login\":{\"t\":2592000},\"hckd\":{},\"i_user\"\
+            :{},\"js_ver\":{\"t\":604800},\"locale\":{\"t\":604800},\"lp\":{},\"lp3\"\
+            :{},\"lu\":{\"t\":63072000},\"m_pixel_ratio\":{},\"noscript\":{\"i\":1},\"\
+            oo\":{\"i\":1,\"t\":158284800},\"pl\":{},\"pnl_data\":{},\"presence\"\
+            :{},\"reg_ext_ref\":{},\"reg_fb_gate\":{},\"reg_fb_ref\":{},\"sW\":{},\"\
+            sb\":{\"t\":63072000},\"sfiu\":{},\"sfau\":{},\"smurf\":{},\"tokbind\"\
+            :{\"t\":86400},\"wd\":{},\"x-referer\":{},\"x-src\":{\"t\":1},\"xs\":{},\"\
+            xtrn\":{\"t\":63072000},\"fr\":{\"i\":1}},2104],[\"FbtLogger\",[],{\"\
+            logger\":null},288],[\"FbtResultGK\",[],{\"shouldReturnFbtResult\":true,\"\
+            inlineMode\":\"NO_INLINE\"},876],[\"IntlViewerContext\",[],{\"GENDER\"\
+            :50331648},772],[\"IntlPhonologicalRules\",[],{\"meta\":{\"\\/_B\\/\"\
+            :\"([.,!?\\\\s]|^)\",\"\\/_E\\/\":\"([.,!?\\\\s]|$)\"},\"patterns\":{\"\
+            \\/\\u0001(.*)('|&#039;)s\\u0001(?:'|&#039;)s(.*)\\/\":\"\\u0001$1$2s\\\
+            u0001$3\",\"\\/_\\u0001([^\\u0001]*)\\u0001\\/\":\"javascript\"}},1496],[\"\
+            ServiceWorkerBackgroundSyncGK\",[],{\"background_sync_sw\":false},1628],[\"\
+            PageNavigationStageLoggerGK\",[],{\"gk_check\":false},1434],[\"PageTransitionsConfig\"\
+            ,[],{\"reloadOnBootloadError\":true},1067],[\"InitialServerTime\",[],{\"\
+            serverTime\":1491251920000}\u2026"}
+        childrenids: []
+        localName: script
+        nodeId: 196
+        nodeName: SCRIPT
+        nodeType: 1
+        nodeValue: ''
+        parent: 165
+        props: {}
+      198:
+        attributes: []
+        childNodeCount: 1
+        children:
+        - {localName: '', nodeId: 199, nodeName: '#text', nodeType: 3, nodeValue: '(function(){var
+            a=document.createElement(''div'');a.innerHTML=''<svg/>'';if(a.firstChild&&a.firstChild.namespaceURI===''http://www.w3.org/2000/svg''){var
+            b=document.documentElement;b.className=b.className.replace(''no_svg'',''svg'');}})();'}
+        childrenids: []
+        localName: script
+        nodeId: 198
+        nodeName: SCRIPT
+        nodeType: 1
+        nodeValue: ''
+        parent: 165
+        props: {}
+      200:
+        attributes: [src, 'https://static.xx.fbcdn.net/rsrc.php/v3icMq4/y-/l/en_US/v6kZd0ndNCm.js',
+          async, '', crossorigin, anonymous]
+        childNodeCount: 0
+        children: []
+        childrenids: []
+        localName: script
+        nodeId: 200
+        nodeName: SCRIPT
+        nodeType: 1
+        nodeValue: ''
+        parent: 165
+        props: {async: '', crossorigin: anonymous, src: 'https://static.xx.fbcdn.net/rsrc.php/v3icMq4/y-/l/en_US/v6kZd0ndNCm.js'}
+      201:
+        attributes: [class, _li]
+        childNodeCount: 1
+        children:
+        - &id006
+          attributes: [class, pluginSkinLight pluginFontHelvetica]
+          childNodeCount: 1
+          children:
+          - &id007
+            attributes: [class, _5pcb _5tmf _50f3]
+            childNodeCount: 2
+            children:
+            - &id008
+              attributes: [class, accessible_elem, id, newsFeedHeading]
+              childNodeCount: 1
+              children:
+              - &id009
+                childrenids: []
+                localName: ''
+                nodeId: 205
+                nodeName: '#text'
+                nodeType: 3
+                nodeValue: News Feed
+                parent: 204
+                props: {}
+              childrenids: [205]
+              h: 1.0
+              localName: h2
+              nodeId: 204
+              nodeName: H2
+              nodeType: 1
+              nodeValue: ''
+              parent: 203
+              props: {class: accessible_elem, id: newsFeedHeading}
+              value: ''
+              w: 1.0
+              x: 0.0
+              y: 0.0
+            - &id010
+              attributes: [class, _4-u2 mbm _4mrt _5jmm _5pat _5v3q _4-u8, data-ft,
+                '{"fbfeed_location":23}', data-fte, '1', data-ftr, '1', id, u_0_0]
+              childNodeCount: 1
+              children:
+              - &id011
+                attributes: [class, _3ccb, data-gt, '{"type":"click2canvas","fbsource":703,"ref":"nf_generic"}',
+                  id, u_0_1]
+                childNodeCount: 2
+                children:
+                - &id012
+                  attributes: []
+                  childNodeCount: 0
+                  children: []
+                  childrenids: []
+                  h: 0.0
+                  localName: div
+                  nodeId: 208
+                  nodeName: DIV
+                  nodeType: 1
+                  nodeValue: ''
+                  parent: 207
+                  props: {}
+                  value: ''
+                  w: 382.0
+                  x: 1.0
+                  y: 1.0
+                - &id013
+                  attributes: [class, fbUserContent _5pcr, role, article, aria-label,
+                    Story]
+                  childNodeCount: 2
+                  children:
+                  - &id014
+                    attributes: [class, _1dwg _1w_m _2ph_]
+                    childNodeCount: 3
+                    children:
+                    - &id015
+                      attributes: [class, _4r_y]
+                      childNodeCount: 1
+                      children:
+                      - &id016
+                        attributes: []
+                        childNodeCount: 0
+                        children: []
+                        childrenids: []
+                        h: 0.0
+                        localName: div
+                        nodeId: 212
+                        nodeName: DIV
+                        nodeType: 1
+                        nodeValue: ''
+                        parent: 211
+                        props: {}
+                        value: ''
+                        w: 358.0
+                        x: 13.0
+                        y: 13.0
+                      childrenids: [212]
+                      h: 0.0
+                      localName: div
+                      nodeId: 211
+                      nodeName: DIV
+                      nodeType: 1
+                      nodeValue: ''
+                      parent: 210
+                      props: {class: _4r_y}
+                      value: ''
+                      w: 358.0
+                      x: 13.0
+                      y: 13.0
+                    - &id017
+                      attributes: [class, _4gns accessible_elem]
+                      childNodeCount: 0
+                      children: []
+                      childrenids: []
+                      h: 1.0
+                      localName: div
+                      nodeId: 213
+                      nodeName: DIV
+                      nodeType: 1
+                      nodeValue: ''
+                      parent: 210
+                      props: {class: _4gns accessible_elem}
+                      value: ''
+                      w: 1.0
+                      x: 13.0
+                      y: 13.0
+                    - &id018
+                      attributes: []
+                      childNodeCount: 4
+                      children:
+                      - &id019
+                        attributes: [class, clearfix _5x46 _4d-l]
+                        childNodeCount: 3
+                        children:
+                        - &id020
+                          attributes: [class, _5pb8 _29h _303, href, 'https://m.facebook.com/KearneyPolice/?ref=nf&refsrc=https%3A%2F%2Fwww.facebook.com%2Fplugins%2Fpost.php',
+                            aria-hidden, 'true', tabindex, '-1', target, _blank, data-ft,
+                            '{"tn":"\u003C"}']
+                          childNodeCount: 1
+                          children:
+                          - &id021
+                            attributes: [class, _38vo]
+                            childNodeCount: 1
+                            children:
+                            - &id022
+                              attributes: [class, _s0 _5xib _5sq7 _44ma _rw img, src,
+                                'https://scontent.xx.fbcdn.net/v/t1.0-1/p50x50/16406890_593190970874985_3644429788548195371_n.jpg?oh=1801b372fdbbd49c236c3410d2110f8b&oe=595B9AB8',
+                                alt, '']
+                              childNodeCount: 0
+                              children: []
+                              childrenids: []
+                              h: 40.0
+                              localName: img
+                              nodeId: 220
+                              nodeName: IMG
+                              nodeType: 1
+                              nodeValue: ''
+                              parent: 218
+                              props: {alt: '', class: _s0 _5xib _5sq7 _44ma _rw img,
+                                src: 'https://scontent.xx.fbcdn.net/v/t1.0-1/p50x50/16406890_593190970874985_3644429788548195371_n.jpg?oh=1801b372fdbbd49c236c3410d2110f8b&oe=595B9AB8'}
+                              value: ''
+                              w: 40.0
+                              x: 13.0
+                              y: 13.0
+                            childrenids: [220]
+                            h: 40.0
+                            localName: div
+                            nodeId: 218
+                            nodeName: DIV
+                            nodeType: 1
+                            nodeValue: ''
+                            parent: 217
+                            props: {class: _38vo}
+                            pseudoElements:
+                            - attributes: []
+                              childNodeCount: 0
+                              localName: <pseudo:after>
+                              nodeId: 219
+                              nodeName: <pseudo:after>
+                              nodeType: 1
+                              nodeValue: ''
+                              pseudoType: after
+                            value: ''
+                            w: 40.0
+                            x: 13.0
+                            y: 13.0
+                          childrenids: [218]
+                          h: 40.0
+                          localName: a
+                          nodeId: 217
+                          nodeName: A
+                          nodeType: 1
+                          nodeValue: ''
+                          parent: 215
+                          props: {aria-hidden: 'true', class: _5pb8 _29h _303, data-ft: '{"tn":"\u003C"}',
+                            href: 'https://m.facebook.com/KearneyPolice/?ref=nf&refsrc=https%3A%2F%2Fwww.facebook.com%2Fplugins%2Fpost.php',
+                            tabindex: '-1', target: _blank}
+                          value: ''
+                          w: 40.0
+                          x: 13.0
+                          y: 13.0
+                        - &id023
+                          attributes: [class, _302]
+                          childNodeCount: 1
+                          children:
+                          - &id024
+                            attributes: []
+                            childNodeCount: 1
+                            children:
+                            - &id025
+                              attributes: [href, 'https://m.facebook.com/KearneyPolice/posts/623389621188453?refsrc=https%3A%2F%2Fwww.facebook.com%2Fplugins%2Fpost.php',
+                                target, _blank]
+                              childNodeCount: 1
+                              children:
+                              - &id026
+                                attributes: [class, img sp_post-plugin sx_post-plugin_favicon]
+                                childNodeCount: 1
+                                children:
+                                - &id027
+                                  attributes: []
+                                  childNodeCount: 1
+                                  children:
+                                  - &id028
+                                    childrenids: []
+                                    localName: ''
+                                    nodeId: 226
+                                    nodeName: '#text'
+                                    nodeType: 3
+                                    nodeValue: app-facebook
+                                    parent: 225
+                                    props: {}
+                                  childrenids: [226]
+                                  h: 16.0
+                                  localName: u
+                                  nodeId: 225
+                                  nodeName: U
+                                  nodeType: 1
+                                  nodeValue: ''
+                                  parent: 224
+                                  props: {}
+                                  value: ''
+                                  w: 71.6875
+                                  x: -999998.0
+                                  y: 13.0
+                                childrenids: [225]
+                                h: 24.0
+                                localName: i
+                                nodeId: 224
+                                nodeName: I
+                                nodeType: 1
+                                nodeValue: ''
+                                parent: 223
+                                props: {class: img sp_post-plugin sx_post-plugin_favicon}
+                                value: ''
+                                w: 24.0
+                                x: 347.0
+                                y: 13.0
+                              childrenids: [224]
+                              h: 14.0
+                              localName: a
+                              nodeId: 223
+                              nodeName: A
+                              nodeType: 1
+                              nodeValue: ''
+                              parent: 222
+                              props: {href: 'https://m.facebook.com/KearneyPolice/posts/623389621188453?refsrc=https%3A%2F%2Fwww.facebook.com%2Fplugins%2Fpost.php',
+                                target: _blank}
+                              value: ''
+                              w: 24.0
+                              x: 347.0
+                              y: 26.0
+                            childrenids: [223]
+                            h: 14.0
+                            localName: span
+                            nodeId: 222
+                            nodeName: SPAN
+                            nodeType: 1
+                            nodeValue: ''
+                            parent: 221
+                            props: {}
+                            value: ''
+                            w: 24.0
+                            x: 347.0
+                            y: 26.0
+                          childrenids: [222]
+                          h: 28.0
+                          localName: div
+                          nodeId: 221
+                          nodeName: DIV
+                          nodeType: 1
+                          nodeValue: ''
+                          parent: 215
+                          props: {class: _302}
+                          value: ''
+                          w: 24.0
+                          x: 347.0
+                          y: 13.0
+                        - &id029
+                          attributes: [class, _3dp _29k]
+                          childNodeCount: 1
+                          children:
+                          - &id030
+                            attributes: []
+                            childNodeCount: 1
+                            children:
+                            - &id031
+                              attributes: [class, _6a]
+                              childNodeCount: 2
+                              children:
+                              - &id032
+                                attributes: [class, _6a _6b, style, 'height:40px']
+                                childNodeCount: 0
+                                children: []
+                                childrenids: []
+                                h: 40.0
+                                localName: div
+                                nodeId: 230
+                                nodeName: DIV
+                                nodeType: 1
+                                nodeValue: ''
+                                parent: 229
+                                props: {class: _6a _6b, style: 'height:40px'}
+                                value: ''
+                                w: 0.0
+                                x: 61.0
+                                y: 13.0
+                              - &id033
+                                attributes: [class, _6a _6b]
+                                childNodeCount: 2
+                                children:
+                                - &id034
+                                  attributes: [class, _2_79 _50f4 _50f7]
+                                  childNodeCount: 1
+                                  children:
+                                  - &id035
+                                    childrenids: []
+                                    localName: ''
+                                    nodeId: 233
+                                    nodeName: '#text'
+                                    nodeType: 3
+                                    nodeValue: Kearney Police Department
+                                    parent: 232
+                                    props: {}
+                                  childrenids: [233]
+                                  h: 18.0
+                                  localName: div
+                                  nodeId: 232
+                                  nodeName: DIV
+                                  nodeType: 1
+                                  nodeValue: ''
+                                  parent: 231
+                                  props: {class: _2_79 _50f4 _50f7}
+                                  value: ''
+                                  w: 175.625
+                                  x: 61.0
+                                  y: 16.0
+                                - &id036
+                                  attributes: [class, _39g5, href, 'https://m.facebook.com/KearneyPolice/posts/623389621188453?refsrc=https%3A%2F%2Fwww.facebook.com%2Fplugins%2Fpost.php',
+                                    target, _blank]
+                                  childNodeCount: 1
+                                  children:
+                                  - &id037
+                                    attributes: [title, 'Sunday, April 2, 2017 at
+                                        9:30pm', data-utime, '1491193807', class,
+                                      timestamp]
+                                    childNodeCount: 1
+                                    children:
+                                    - &id038
+                                      attributes: [class, timestampContent]
+                                      childNodeCount: 1
+                                      children:
+                                      - &id039
+                                        childrenids: []
+                                        localName: ''
+                                        nodeId: 237
+                                        nodeName: '#text'
+                                        nodeType: 3
+                                        nodeValue: 16 hours ago
+                                        parent: 236
+                                        props: {}
+                                      childrenids: [237]
+                                      h: 14.0
+                                      localName: span
+                                      nodeId: 236
+                                      nodeName: SPAN
+                                      nodeType: 1
+                                      nodeValue: ''
+                                      parent: 235
+                                      props: {class: timestampContent}
+                                      value: ''
+                                      w: 69.837890625
+                                      x: 61.0
+                                      y: 35.0
+                                    childrenids: [236]
+                                    h: 14.0
+                                    localName: abbr
+                                    nodeId: 235
+                                    nodeName: ABBR
+                                    nodeType: 1
+                                    nodeValue: ''
+                                    parent: 234
+                                    props: {class: timestamp, data-utime: '1491193807',
+                                      title: 'Sunday, April 2, 2017 at 9:30pm'}
+                                    value: ''
+                                    w: 69.837890625
+                                    x: 61.0
+                                    y: 35.0
+                                  childrenids: [235]
+                                  h: 14.0
+                                  localName: a
+                                  nodeId: 234
+                                  nodeName: A
+                                  nodeType: 1
+                                  nodeValue: ''
+                                  parent: 231
+                                  props: {class: _39g5, href: 'https://m.facebook.com/KearneyPolice/posts/623389621188453?refsrc=https%3A%2F%2Fwww.facebook.com%2Fplugins%2Fpost.php',
+                                    target: _blank}
+                                  value: ''
+                                  w: 69.837890625
+                                  x: 61.0
+                                  y: 35.0
+                                childrenids: [232, 234]
+                                h: 34.0
+                                localName: div
+                                nodeId: 231
+                                nodeName: DIV
+                                nodeType: 1
+                                nodeValue: ''
+                                parent: 229
+                                props: {class: _6a _6b}
+                                value: ''
+                                w: 175.625
+                                x: 61.0
+                                y: 16.0
+                              childrenids: [230, 231]
+                              h: 40.0
+                              localName: div
+                              nodeId: 229
+                              nodeName: DIV
+                              nodeType: 1
+                              nodeValue: ''
+                              parent: 228
+                              props: {class: _6a}
+                              value: ''
+                              w: 175.625
+                              x: 61.0
+                              y: 13.0
+                            childrenids: [229]
+                            h: 40.0
+                            localName: div
+                            nodeId: 228
+                            nodeName: DIV
+                            nodeType: 1
+                            nodeValue: ''
+                            parent: 227
+                            props: {}
+                            value: ''
+                            w: 176.0
+                            x: 61.0
+                            y: 13.0
+                          childrenids: [228]
+                          h: 40.0
+                          localName: div
+                          nodeId: 227
+                          nodeName: DIV
+                          nodeType: 1
+                          nodeValue: ''
+                          parent: 215
+                          props: {class: _3dp _29k}
+                          value: ''
+                          w: 286.0
+                          x: 61.0
+                          y: 13.0
+                        childrenids: [217, 221, 227]
+                        h: 40.0
+                        localName: div
+                        nodeId: 215
+                        nodeName: DIV
+                        nodeType: 1
+                        nodeValue: ''
+                        parent: 214
+                        props: {class: clearfix _5x46 _4d-l}
+                        pseudoElements:
+                        - attributes: []
+                          childNodeCount: 0
+                          localName: <pseudo:after>
+                          nodeId: 216
+                          nodeName: <pseudo:after>
+                          nodeType: 1
+                          nodeValue: ''
+                          pseudoType: after
+                        value: ''
+                        w: 358.0
+                        x: 13.0
+                        y: 13.0
+                      - &id040
+                        attributes: [class, _5pbx userContent, data-ft, '{"tn":"K"}']
+                        childNodeCount: 1
+                        children:
+                        - &id041
+                          attributes: [id, id_58e2b2d003a609546321458, class, text_exposed_root]
+                          childNodeCount: 4
+                          children:
+                          - &id042
+                            attributes: []
+                            childNodeCount: 1
+                            children:
+                            - &id043
+                              childrenids: []
+                              localName: ''
+                              nodeId: 241
+                              nodeName: '#text'
+                              nodeType: 3
+                              nodeValue: It is possible we had a spotting of the victim
+                                and suspect of a Columbia, TN Amber Alert in Kearney
+                                this evening. They were possibly driving the pickup
+                                in the attached photos. They could also still be using
+                                the Silver 2015 Nissan Rogue listed in the Amber Alert.  Call
+                                911 if you observe either of these vehicles or Elizabeth
+                                Thomas or Tad Cummins. Use caution as the suspect
+                                has possession of two handguns.
+                              parent: 240
+                              props: {}
+                            childrenids: [241]
+                            h: 152.0
+                            localName: p
+                            nodeId: 240
+                            nodeName: P
+                            nodeType: 1
+                            nodeValue: ''
+                            parent: 239
+                            props: {}
+                            value: ''
+                            w: 358.0
+                            x: 13.0
+                            y: 64.0
+                          - &id044
+                            attributes: []
+                            childNodeCount: 5
+                            children:
+                            - &id045
+                              childrenids: []
+                              localName: ''
+                              nodeId: 244
+                              nodeName: '#text'
+                              nodeType: 3
+                              nodeValue: ' UPDATE:'
+                              parent: 242
+                              props: {}
+                            - &id046
+                              attributes: []
+                              childNodeCount: 0
+                              children: []
+                              childrenids: []
+                              h: 16.0
+                              localName: br
+                              nodeId: 245
+                              nodeName: BR
+                              nodeType: 1
+                              nodeValue: ''
+                              parent: 242
+                              props: {}
+                              value: ''
+                              w: 0.0
+                              x: 68.9248046875
+                              y: 223.0
+                            - &id047
+                              childrenids: []
+                              localName: ''
+                              nodeId: 246
+                              nodeName: '#text'
+                              nodeType: 3
+                              nodeValue: ' Investigation update into the possible
+                                sighting in regards to th'
+                              parent: 242
+                              props: {}
+                            - &id048
+                              attributes: [class, text_exposed_hide]
+                              childNodeCount: 1
+                              children:
+                              - &id049
+                                childrenids: []
+                                localName: ''
+                                nodeId: 248
+                                nodeName: '#text'
+                                nodeType: 3
+                                nodeValue: '...'
+                                parent: 247
+                                props: {}
+                              childrenids: [248]
+                              h: 19.0
+                              localName: span
+                              nodeId: 247
+                              nodeName: SPAN
+                              nodeType: 1
+                              nodeValue: ''
+                              parent: 242
+                              props: {class: text_exposed_hide}
+                              value: ''
+                              w: 11.0625
+                              x: 41.296875
+                              y: 260.0
+                            - &id050
+                              attributes: [class, text_exposed_show]
+                              childNodeCount: 1
+                              children:
+                              - &id051
+                                childrenids: []
+                                localName: ''
+                                nodeId: 250
+                                nodeName: '#text'
+                                nodeType: 3
+                                nodeValue: e missing child from Columbia, Tennessee.
+                                parent: 249
+                                props: {}
+                              childrenids: [250]
+                              h: 0.0
+                              localName: span
+                              nodeId: 249
+                              nodeName: SPAN
+                              nodeType: 1
+                              nodeValue: ''
+                              parent: 242
+                              props: {class: text_exposed_show}
+                              value: ''
+                              w: 0.0
+                              x: 0.0
+                              y: 0.0
+                            childrenids: [244, 245, 246, 247, 249]
+                            h: 61.0
+                            localName: p
+                            nodeId: 242
+                            nodeName: P
+                            nodeType: 1
+                            nodeValue: ''
+                            parent: 239
+                            props: {}
+                            pseudoElements:
+                            - attributes: []
+                              childNodeCount: 0
+                              localName: <pseudo:before>
+                              nodeId: 243
+                              nodeName: <pseudo:before>
+                              nodeType: 1
+                              nodeValue: ''
+                              pseudoType: before
+                            value: ''
+                            w: 358.0
+                            x: 13.0
+                            y: 216.0
+                          - &id052
+                            attributes: [class, text_exposed_show]
+                            childNodeCount: 4
+                            children:
+                            - &id053
+                              attributes: []
+                              childNodeCount: 3
+                              children:
+                              - &id054
+                                childrenids: []
+                                localName: ''
+                                nodeId: 253
+                                nodeName: '#text'
+                                nodeType: 3
+                                nodeValue: " Investigators of the Kearney Police Department\
+                                  \ received additional information this morning in\
+                                  \ regards to the possible sighting of the male suspect\
+                                  \ and Elizabeth Thomas which occurred on Sunday,\
+                                  \ April 2nd, at the McDonald\u2019s Restaurant (5602\
+                                  \ 1st Avenue, Kearney, NE).  It has been confirmed\
+                                  \ that the individuals shown in the video are not\
+                                  \ involved in the kidnapping / Amber Alert out of\
+                                  \ Tennessee.  We have had contact with the male\
+                                  \ subject in the video and have confirmed his identity\
+                                  \ and have determined he is not the subject of the\
+                                  \ Amber Alert.  Authorities in Tennessee and the\
+                                  \ Federal Bureau of Investigation have been notified\
+                                  \ of the results of our investigation.  "
+                                parent: 252
+                                props: {}
+                              - &id055
+                                attributes: []
+                                childNodeCount: 0
+                                children: []
+                                childrenids: []
+                                h: 0.0
+                                localName: br
+                                nodeId: 254
+                                nodeName: BR
+                                nodeType: 1
+                                nodeValue: ''
+                                parent: 252
+                                props: {}
+                                value: ''
+                                w: 0.0
+                                x: 0.0
+                                y: 0.0
+                              - &id056
+                                childrenids: []
+                                localName: ''
+                                nodeId: 255
+                                nodeName: '#text'
+                                nodeType: 3
+                                nodeValue: ' We wish to thank the reporting party,
+                                  McDonald''s, and the witnesses to this investigation
+                                  for your cooperation.  We ask that you keep the
+                                  family of Elizabeth in your thoughts and prayers
+                                  and that she returns home safely.  '
+                                parent: 252
+                                props: {}
+                              childrenids: [253, 254, 255]
+                              h: 0.0
+                              localName: p
+                              nodeId: 252
+                              nodeName: P
+                              nodeType: 1
+                              nodeValue: ''
+                              parent: 251
+                              props: {}
+                              value: ''
+                              w: 0.0
+                              x: 0.0
+                              y: 0.0
+                            - &id057
+                              attributes: []
+                              childNodeCount: 1
+                              children:
+                              - &id058
+                                childrenids: []
+                                localName: ''
+                                nodeId: 257
+                                nodeName: '#text'
+                                nodeType: 3
+                                nodeValue: ' Even though there have been no confirmed
+                                  sightings in Nebraska, we ask that the public continues
+                                  to watch for these individuals to bring a safe conclusion
+                                  to this case.  If you have information on Thomas
+                                  or Cummins, call the MCSD at 931-375-8654 or the
+                                  TBI at 1-800-TBI-FIND.  '
+                                parent: 256
+                                props: {}
+                              childrenids: [257]
+                              h: 0.0
+                              localName: p
+                              nodeId: 256
+                              nodeName: P
+                              nodeType: 1
+                              nodeValue: ''
+                              parent: 251
+                              props: {}
+                              value: ''
+                              w: 0.0
+                              x: 0.0
+                              y: 0.0
+                            - &id059
+                              attributes: []
+                              childNodeCount: 2
+                              children:
+                              - &id060
+                                attributes: [href, 'https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.tn.gov%2Fassets%2Fentities%2Ftbi%2Fattachments%2FUSTN_THOMASMauryCOSO.pdf&h=ATPWrfVwV1rAaCVtWwsXCqeeuhwtIIDQ5ZbaG6IsTVQc_R07atIYcjy94PxTyYeycVqwndXsjWMIbL9tBqA9rvFmb5ko-cQ1&enc=AZN9KeCFFmXZPstGChSfu2lOJ8dfLZCcYsyra9eJc6z4Mm8-qiOTjVS54cXDqIjKUKphtrHS4K7DXQj5Skp0Ma06hHsSmIlBHfGn6bwAXT0ID97oGyh78UX1XYt286xt4pwXnSvtpXex6U_M6DFYQM_iArE5hdreckiTw8t2HKeesvfCtGCBqNdLilcBhJD17Rw_emaWMUdo4eqUueDpHdcF&s=1',
+                                  target, _blank, rel, nofollow, onmouseover, 'LinkshimAsyncLink.swap(this,
+                                    "https:\/\/www.tn.gov\/assets\/entities\/tbi\/attachments\/USTN_THOMASMauryCOSO.pdf");',
+                                  onclick, 'LinkshimAsyncLink.swap(this, "https:\/\/l.facebook.com\/l.php?u=https\u00253A\u00252F\u00252Fwww.tn.gov\u00252Fassets\u00252Fentities\u00252Ftbi\u00252Fattachments\u00252FUSTN_THOMASMauryCOSO.pdf&h=ATPWrfVwV1rAaCVtWwsXCqeeuhwtIIDQ5ZbaG6IsTVQc_R07atIYcjy94PxTyYeycVqwndXsjWMIbL9tBqA9rvFmb5ko-cQ1&enc=AZN9KeCFFmXZPstGChSfu2lOJ8dfLZCcYsyra9eJc6z4Mm8-qiOTjVS54cXDqIjKUKphtrHS4K7DXQj5Skp0Ma06hHsSmIlBHfGn6bwAXT0ID97oGyh78UX1XYt286xt4pwXnSvtpXex6U_M6DFYQM_iArE5hdreckiTw8t2HKeesvfCtGCBqNdLilcBhJD17Rw_emaWMUdo4eqUueDpHdcF&s=1");']
+                                childNodeCount: 1
+                                children:
+                                - &id061
+                                  childrenids: []
+                                  localName: ''
+                                  nodeId: 260
+                                  nodeName: '#text'
+                                  nodeType: 3
+                                  nodeValue: "https://www.tn.gov/\u2026/t\u2026/attachments/USTN_THOMASMauryCOSO.pdf"
+                                  parent: 259
+                                  props: {}
+                                childrenids: [260]
+                                h: 0.0
+                                localName: a
+                                nodeId: 259
+                                nodeName: A
+                                nodeType: 1
+                                nodeValue: ''
+                                parent: 258
+                                props: {href: 'https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.tn.gov%2Fassets%2Fentities%2Ftbi%2Fattachments%2FUSTN_THOMASMauryCOSO.pdf&h=ATPWrfVwV1rAaCVtWwsXCqeeuhwtIIDQ5ZbaG6IsTVQc_R07atIYcjy94PxTyYeycVqwndXsjWMIbL9tBqA9rvFmb5ko-cQ1&enc=AZN9KeCFFmXZPstGChSfu2lOJ8dfLZCcYsyra9eJc6z4Mm8-qiOTjVS54cXDqIjKUKphtrHS4K7DXQj5Skp0Ma06hHsSmIlBHfGn6bwAXT0ID97oGyh78UX1XYt286xt4pwXnSvtpXex6U_M6DFYQM_iArE5hdreckiTw8t2HKeesvfCtGCBqNdLilcBhJD17Rw_emaWMUdo4eqUueDpHdcF&s=1',
+                                  onclick: 'LinkshimAsyncLink.swap(this, "https:\/\/l.facebook.com\/l.php?u=https\u00253A\u00252F\u00252Fwww.tn.gov\u00252Fassets\u00252Fentities\u00252Ftbi\u00252Fattachments\u00252FUSTN_THOMASMauryCOSO.pdf&h=ATPWrfVwV1rAaCVtWwsXCqeeuhwtIIDQ5ZbaG6IsTVQc_R07atIYcjy94PxTyYeycVqwndXsjWMIbL9tBqA9rvFmb5ko-cQ1&enc=AZN9KeCFFmXZPstGChSfu2lOJ8dfLZCcYsyra9eJc6z4Mm8-qiOTjVS54cXDqIjKUKphtrHS4K7DXQj5Skp0Ma06hHsSmIlBHfGn6bwAXT0ID97oGyh78UX1XYt286xt4pwXnSvtpXex6U_M6DFYQM_iArE5hdreckiTw8t2HKeesvfCtGCBqNdLilcBhJD17Rw_emaWMUdo4eqUueDpHdcF&s=1");',
+                                  onmouseover: 'LinkshimAsyncLink.swap(this, "https:\/\/www.tn.gov\/assets\/entities\/tbi\/attachments\/USTN_THOMASMauryCOSO.pdf");',
+                                  rel: nofollow, target: _blank}
+                                value: ''
+                                w: 0.0
+                                x: 0.0
+                                y: 0.0
+                              - &id062
+                                childrenids: []
+                                localName: ''
+                                nodeId: 261
+                                nodeName: '#text'
+                                nodeType: 3
+                                nodeValue: '  (printable PDF Flyer)'
+                                parent: 258
+                                props: {}
+                              childrenids: [259, 261]
+                              h: 0.0
+                              localName: p
+                              nodeId: 258
+                              nodeName: P
+                              nodeType: 1
+                              nodeValue: ''
+                              parent: 251
+                              props: {}
+                              value: ''
+                              w: 0.0
+                              x: 0.0
+                              y: 0.0
+                            - &id063
+                              attributes: []
+                              childNodeCount: 1
+                              children:
+                              - &id064
+                                attributes: [href, 'https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.tn.gov%2Ftbi%2Ftopic%2Factive-amber-alerts&h=ATMeoO52xNKqoNKZ9jmLFKk8ku4fIHFFgy15tB98D_FUqou54wh0vXSxqjDcUVuut83RFVmswZ0XD_Z_V0DMBs84SiqZtXpm&enc=AZN1hZ2SRKD-QObLUDzbJBv4_m78-r5VNHZdqLDlCQ89TWNrPyUHWx41K7AtNkwnU6J-1t-DCkfkTt49odSIAnpnwmBoH5iCAZWdvoAiQ7lk8TL50yxmMknMA4yplAyPh79wucFIlZfKH1YsQSozpfl_MiNWZ5QKAuD-aVrapkWZjrXi3BNycOHT4Nfr5GNYDfD8ddcqXNSiRwqe8KLQ8cYp&s=1',
+                                  target, _blank, rel, nofollow, onmouseover, 'LinkshimAsyncLink.swap(this,
+                                    "https:\/\/www.tn.gov\/tbi\/topic\/active-amber-alerts");',
+                                  onclick, 'LinkshimAsyncLink.swap(this, "https:\/\/l.facebook.com\/l.php?u=https\u00253A\u00252F\u00252Fwww.tn.gov\u00252Ftbi\u00252Ftopic\u00252Factive-amber-alerts&h=ATMeoO52xNKqoNKZ9jmLFKk8ku4fIHFFgy15tB98D_FUqou54wh0vXSxqjDcUVuut83RFVmswZ0XD_Z_V0DMBs84SiqZtXpm&enc=AZN1hZ2SRKD-QObLUDzbJBv4_m78-r5VNHZdqLDlCQ89TWNrPyUHWx41K7AtNkwnU6J-1t-DCkfkTt49odSIAnpnwmBoH5iCAZWdvoAiQ7lk8TL50yxmMknMA4yplAyPh79wucFIlZfKH1YsQSozpfl_MiNWZ5QKAuD-aVrapkWZjrXi3BNycOHT4Nfr5GNYDfD8ddcqXNSiRwqe8KLQ8cYp&s=1");']
+                                childNodeCount: 1
+                                children:
+                                - &id065
+                                  childrenids: []
+                                  localName: ''
+                                  nodeId: 264
+                                  nodeName: '#text'
+                                  nodeType: 3
+                                  nodeValue: https://www.tn.gov/tbi/topic/active-amber-alerts
+                                  parent: 263
+                                  props: {}
+                                childrenids: [264]
+                                h: 0.0
+                                localName: a
+                                nodeId: 263
+                                nodeName: A
+                                nodeType: 1
+                                nodeValue: ''
+                                parent: 262
+                                props: {href: 'https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.tn.gov%2Ftbi%2Ftopic%2Factive-amber-alerts&h=ATMeoO52xNKqoNKZ9jmLFKk8ku4fIHFFgy15tB98D_FUqou54wh0vXSxqjDcUVuut83RFVmswZ0XD_Z_V0DMBs84SiqZtXpm&enc=AZN1hZ2SRKD-QObLUDzbJBv4_m78-r5VNHZdqLDlCQ89TWNrPyUHWx41K7AtNkwnU6J-1t-DCkfkTt49odSIAnpnwmBoH5iCAZWdvoAiQ7lk8TL50yxmMknMA4yplAyPh79wucFIlZfKH1YsQSozpfl_MiNWZ5QKAuD-aVrapkWZjrXi3BNycOHT4Nfr5GNYDfD8ddcqXNSiRwqe8KLQ8cYp&s=1',
+                                  onclick: 'LinkshimAsyncLink.swap(this, "https:\/\/l.facebook.com\/l.php?u=https\u00253A\u00252F\u00252Fwww.tn.gov\u00252Ftbi\u00252Ftopic\u00252Factive-amber-alerts&h=ATMeoO52xNKqoNKZ9jmLFKk8ku4fIHFFgy15tB98D_FUqou54wh0vXSxqjDcUVuut83RFVmswZ0XD_Z_V0DMBs84SiqZtXpm&enc=AZN1hZ2SRKD-QObLUDzbJBv4_m78-r5VNHZdqLDlCQ89TWNrPyUHWx41K7AtNkwnU6J-1t-DCkfkTt49odSIAnpnwmBoH5iCAZWdvoAiQ7lk8TL50yxmMknMA4yplAyPh79wucFIlZfKH1YsQSozpfl_MiNWZ5QKAuD-aVrapkWZjrXi3BNycOHT4Nfr5GNYDfD8ddcqXNSiRwqe8KLQ8cYp&s=1");',
+                                  onmouseover: 'LinkshimAsyncLink.swap(this, "https:\/\/www.tn.gov\/tbi\/topic\/active-amber-alerts");',
+                                  rel: nofollow, target: _blank}
+                                value: ''
+                                w: 0.0
+                                x: 0.0
+                                y: 0.0
+                              childrenids: [263]
+                              h: 0.0
+                              localName: p
+                              nodeId: 262
+                              nodeName: P
+                              nodeType: 1
+                              nodeValue: ''
+                              parent: 251
+                              props: {}
+                              value: ''
+                              w: 0.0
+                              x: 0.0
+                              y: 0.0
+                            childrenids: [256, 258, 262, 252]
+                            h: 0.0
+                            localName: div
+                            nodeId: 251
+                            nodeName: DIV
+                            nodeType: 1
+                            nodeValue: ''
+                            parent: 239
+                            props: {class: text_exposed_show}
+                            value: ''
+                            w: 0.0
+                            x: 0.0
+                            y: 0.0
+                          - &id066
+                            attributes: [class, text_exposed_hide]
+                            childNodeCount: 1
+                            children:
+                            - &id067
+                              attributes: [class, text_exposed_link]
+                              childNodeCount: 1
+                              children:
+                              - &id068
+                                attributes: [class, see_more_link, data-interaction-root-id,
+                                  _24_q, href, /KearneyPolice/posts/623389621188453,
+                                  target, _blank, data-ft, '{"tn":"e"}']
+                                childNodeCount: 1
+                                children:
+                                - &id069
+                                  attributes: [class, see_more_link_inner]
+                                  childNodeCount: 1
+                                  children:
+                                  - &id070
+                                    childrenids: []
+                                    localName: ''
+                                    nodeId: 269
+                                    nodeName: '#text'
+                                    nodeType: 3
+                                    nodeValue: See More
+                                    parent: 268
+                                    props: {}
+                                  childrenids: [269]
+                                  h: 16.0
+                                  localName: span
+                                  nodeId: 268
+                                  nodeName: SPAN
+                                  nodeType: 1
+                                  nodeValue: ''
+                                  parent: 267
+                                  props: {class: see_more_link_inner}
+                                  value: ''
+                                  w: 58.966796875
+                                  x: 56.359375
+                                  y: 261.0
+                                childrenids: [268]
+                                h: 16.0
+                                localName: a
+                                nodeId: 267
+                                nodeName: A
+                                nodeType: 1
+                                nodeValue: ''
+                                parent: 266
+                                props: {class: see_more_link, data-ft: '{"tn":"e"}',
+                                  data-interaction-root-id: _24_q, href: /KearneyPolice/posts/623389621188453,
+                                  target: _blank}
+                                value: ''
+                                w: 58.966796875
+                                x: 56.359375
+                                y: 261.0
+                              childrenids: [267]
+                              h: 19.0
+                              localName: span
+                              nodeId: 266
+                              nodeName: SPAN
+                              nodeType: 1
+                              nodeValue: ''
+                              parent: 265
+                              props: {class: text_exposed_link}
+                              value: ''
+                              w: 58.96875
+                              x: 56.359375
+                              y: 260.0
+                            childrenids: [266]
+                            h: 19.0
+                            localName: span
+                            nodeId: 265
+                            nodeName: SPAN
+                            nodeType: 1
+                            nodeValue: ''
+                            parent: 239
+                            props: {class: text_exposed_hide}
+                            value: ''
+                            w: 58.96875
+                            x: 56.359375
+                            y: 260.0
+                          childrenids: [265, 240, 242, 251]
+                          h: 213.0
+                          localName: div
+                          nodeId: 239
+                          nodeName: DIV
+                          nodeType: 1
+                          nodeValue: ''
+                          parent: 238
+                          props: {class: text_exposed_root, id: id_58e2b2d003a609546321458}
+                          value: ''
+                          w: 358.0
+                          x: 13.0
+                          y: 64.0
+                        childrenids: [239]
+                        h: 215.0
+                        localName: div
+                        nodeId: 238
+                        nodeName: DIV
+                        nodeType: 1
+                        nodeValue: ''
+                        parent: 214
+                        props: {class: _5pbx userContent, data-ft: '{"tn":"K"}'}
+                        value: ''
+                        w: 358.0
+                        x: 13.0
+                        y: 64.0
+                      - &id071
+                        attributes: [class, _3x-2]
+                        childNodeCount: 1
+                        children:
+                        - &id072
+                          attributes: [data-ft, '{"tn":"H"}']
+                          childNodeCount: 1
+                          children:
+                          - &id073
+                            attributes: [class, mtm]
+                            childNodeCount: 1
+                            children:
+                            - &id074
+                              attributes: [class, _2a2q, style, 'width:474px; height:474px;']
+                              childNodeCount: 4
+                              children:
+                              - &id075
+                                attributes: [class, _5dec _xcx, href, 'https://m.facebook.com/KearneyPolice/photos/pcb.623389621188453/623388281188587/?type=3&refsrc=https%3A%2F%2Fwww.facebook.com%2Fplugins%2Fpost.php',
+                                  data-render-location, homepage_stream, data-ft,
+                                  '{"tn":"E"}', id, u_0_2, style, 'top:0px; left:0px;
+                                    width: 315px; height: 474px;', target, _blank]
+                                childNodeCount: 1
+                                children:
+                                - &id076
+                                  attributes: [class, uiScaledImageContainer, style,
+                                    'width:315px;height:474px;']
+                                  childNodeCount: 1
+                                  children:
+                                  - &id077
+                                    attributes: [class, scaledImageFitWidth img, src,
+                                      'https://scontent.xx.fbcdn.net/v/t1.0-0/p320x320/17759787_623388281188587_784866400060101860_n.jpg?oh=da1a0850c162286b800d9c3ed18dabcc&oe=59591AD1',
+                                      style, 'top:-42px;', alt, 'Image may contain:
+                                        one or more people', width, '315', height,
+                                      '560']
+                                    childNodeCount: 0
+                                    children: []
+                                    childrenids: []
+                                    h: 559.0
+                                    localName: img
+                                    nodeId: 277
+                                    nodeName: IMG
+                                    nodeType: 1
+                                    nodeValue: ''
+                                    parent: 276
+                                    props: {alt: 'Image may contain: one or more people',
+                                      class: scaledImageFitWidth img, height: '560',
+                                      src: 'https://scontent.xx.fbcdn.net/v/t1.0-0/p320x320/17759787_623388281188587_784866400060101860_n.jpg?oh=da1a0850c162286b800d9c3ed18dabcc&oe=59591AD1',
+                                      style: 'top:-42px;', width: '315'}
+                                    value: ''
+                                    w: 315.0
+                                    x: 13.0
+                                    y: 247.0
+                                  childrenids: [277]
+                                  h: 474.0
+                                  localName: div
+                                  nodeId: 276
+                                  nodeName: DIV
+                                  nodeType: 1
+                                  nodeValue: ''
+                                  parent: 274
+                                  props: {class: uiScaledImageContainer, style: 'width:315px;height:474px;'}
+                                  value: ''
+                                  w: 315.0
+                                  x: 13.0
+                                  y: 289.0
+                                childrenids: [276]
+                                h: 474.0
+                                localName: a
+                                nodeId: 274
+                                nodeName: A
+                                nodeType: 1
+                                nodeValue: ''
+                                parent: 273
+                                props: {class: _5dec _xcx, data-ft: '{"tn":"E"}',
+                                  data-render-location: homepage_stream, href: 'https://m.facebook.com/KearneyPolice/photos/pcb.623389621188453/623388281188587/?type=3&refsrc=https%3A%2F%2Fwww.facebook.com%2Fplugins%2Fpost.php',
+                                  id: u_0_2, style: 'top:0px; left:0px; width: 315px;
+                                    height: 474px;', target: _blank}
+                                pseudoElements:
+                                - attributes: []
+                                  childNodeCount: 0
+                                  localName: <pseudo:after>
+                                  nodeId: 275
+                                  nodeName: <pseudo:after>
+                                  nodeType: 1
+                                  nodeValue: ''
+                                  pseudoType: after
+                                value: ''
+                                w: 315.0
+                                x: 13.0
+                                y: 289.0
+                              - &id078
+                                attributes: [class, _5dec _xcx, href, 'https://m.facebook.com/KearneyPolice/photos/pcb.623389621188453/623388511188564/?type=3&refsrc=https%3A%2F%2Fwww.facebook.com%2Fplugins%2Fpost.php',
+                                  data-render-location, homepage_stream, data-ft,
+                                  '{"tn":"E"}', id, u_0_3, style, 'top:0px; left:317px;
+                                    width: 157px; height: 157px;', target, _blank]
+                                childNodeCount: 1
+                                children:
+                                - &id079
+                                  attributes: [class, uiScaledImageContainer, style,
+                                    'width:157px;height:157px;']
+                                  childNodeCount: 1
+                                  children:
+                                  - &id080
+                                    attributes: [class, scaledImageFitWidth img, src,
+                                      'https://scontent.xx.fbcdn.net/v/t1.0-0/s280x280/17759784_623388511188564_1030245768270956898_n.jpg?oh=a169fb626cd2dcf57ae1a1584bb360aa&oe=596116AA',
+                                      style, 'top:-61px;', alt, No automatic alt text
+                                        available., width, '157', height, '280']
+                                    childNodeCount: 0
+                                    children: []
+                                    childrenids: []
+                                    h: 280.0
+                                    localName: img
+                                    nodeId: 281
+                                    nodeName: IMG
+                                    nodeType: 1
+                                    nodeValue: ''
+                                    parent: 280
+                                    props: {alt: No automatic alt text available.,
+                                      class: scaledImageFitWidth img, height: '280',
+                                      src: 'https://scontent.xx.fbcdn.net/v/t1.0-0/s280x280/17759784_623388511188564_1030245768270956898_n.jpg?oh=a169fb626cd2dcf57ae1a1584bb360aa&oe=596116AA',
+                                      style: 'top:-61px;', width: '157'}
+                                    value: ''
+                                    w: 157.0
+                                    x: 330.0
+                                    y: 228.0
+                                  childrenids: [281]
+                                  h: 157.0
+                                  localName: div
+                                  nodeId: 280
+                                  nodeName: DIV
+                                  nodeType: 1
+                                  nodeValue: ''
+                                  parent: 278
+                                  props: {class: uiScaledImageContainer, style: 'width:157px;height:157px;'}
+                                  value: ''
+                                  w: 157.0
+                                  x: 330.0
+                                  y: 289.0
+                                childrenids: [280]
+                                h: 157.0
+                                localName: a
+                                nodeId: 278
+                                nodeName: A
+                                nodeType: 1
+                                nodeValue: ''
+                                parent: 273
+                                props: {class: _5dec _xcx, data-ft: '{"tn":"E"}',
+                                  data-render-location: homepage_stream, href: 'https://m.facebook.com/KearneyPolice/photos/pcb.623389621188453/623388511188564/?type=3&refsrc=https%3A%2F%2Fwww.facebook.com%2Fplugins%2Fpost.php',
+                                  id: u_0_3, style: 'top:0px; left:317px; width: 157px;
+                                    height: 157px;', target: _blank}
+                                pseudoElements:
+                                - attributes: []
+                                  childNodeCount: 0
+                                  localName: <pseudo:after>
+                                  nodeId: 279
+                                  nodeName: <pseudo:after>
+                                  nodeType: 1
+                                  nodeValue: ''
+                                  pseudoType: after
+                                value: ''
+                                w: 157.0
+                                x: 330.0
+                                y: 289.0
+                              - &id081
+                                attributes: [class, _5dec _xcx, href, 'https://m.facebook.com/KearneyPolice/photos/pcb.623389621188453/623388594521889/?type=3&refsrc=https%3A%2F%2Fwww.facebook.com%2Fplugins%2Fpost.php',
+                                  data-render-location, homepage_stream, data-ft,
+                                  '{"tn":"E"}', id, u_0_4, style, 'top:159px; left:317px;
+                                    width: 157px; height: 156px;', target, _blank]
+                                childNodeCount: 1
+                                children:
+                                - &id082
+                                  attributes: [class, uiScaledImageContainer, style,
+                                    'width:157px;height:156px;']
+                                  childNodeCount: 1
+                                  children:
+                                  - &id083
+                                    attributes: [class, scaledImageFitHeight img,
+                                      src, 'https://scontent.xx.fbcdn.net/v/t1.0-0/s280x280/17457959_623388594521889_593245073839426089_n.jpg?oh=148e953d862c0196b7b3c70e6089c162&oe=59588373',
+                                      style, 'left:-60px;', alt, No automatic alt
+                                        text available., width, '279', height, '156']
+                                    childNodeCount: 0
+                                    children: []
+                                    childrenids: []
+                                    h: 156.0
+                                    localName: img
+                                    nodeId: 285
+                                    nodeName: IMG
+                                    nodeType: 1
+                                    nodeValue: ''
+                                    parent: 284
+                                    props: {alt: No automatic alt text available.,
+                                      class: scaledImageFitHeight img, height: '156',
+                                      src: 'https://scontent.xx.fbcdn.net/v/t1.0-0/s280x280/17457959_623388594521889_593245073839426089_n.jpg?oh=148e953d862c0196b7b3c70e6089c162&oe=59588373',
+                                      style: 'left:-60px;', width: '279'}
+                                    value: ''
+                                    w: 278.0
+                                    x: 270.0
+                                    y: 448.0
+                                  childrenids: [285]
+                                  h: 156.0
+                                  localName: div
+                                  nodeId: 284
+                                  nodeName: DIV
+                                  nodeType: 1
+                                  nodeValue: ''
+                                  parent: 282
+                                  props: {class: uiScaledImageContainer, style: 'width:157px;height:156px;'}
+                                  value: ''
+                                  w: 157.0
+                                  x: 330.0
+                                  y: 448.0
+                                childrenids: [284]
+                                h: 156.0
+                                localName: a
+                                nodeId: 282
+                                nodeName: A
+                                nodeType: 1
+                                nodeValue: ''
+                                parent: 273
+                                props: {class: _5dec _xcx, data-ft: '{"tn":"E"}',
+                                  data-render-location: homepage_stream, href: 'https://m.facebook.com/KearneyPolice/photos/pcb.623389621188453/623388594521889/?type=3&refsrc=https%3A%2F%2Fwww.facebook.com%2Fplugins%2Fpost.php',
+                                  id: u_0_4, style: 'top:159px; left:317px; width:
+                                    157px; height: 156px;', target: _blank}
+                                pseudoElements:
+                                - attributes: []
+                                  childNodeCount: 0
+                                  localName: <pseudo:after>
+                                  nodeId: 283
+                                  nodeName: <pseudo:after>
+                                  nodeType: 1
+                                  nodeValue: ''
+                                  pseudoType: after
+                                value: ''
+                                w: 157.0
+                                x: 330.0
+                                y: 448.0
+                              - &id084
+                                attributes: [class, _5dec _xcx, href, 'https://m.facebook.com/KearneyPolice/photos/pcb.623389621188453/623389254521823/?type=3&refsrc=https%3A%2F%2Fwww.facebook.com%2Fplugins%2Fpost.php',
+                                  data-render-location, homepage_stream, data-ft,
+                                  '{"tn":"E"}', id, u_0_5, style, 'top:317px; left:317px;
+                                    width: 157px; height: 157px;', target, _blank]
+                                childNodeCount: 2
+                                children:
+                                - &id085
+                                  attributes: [class, uiScaledImageContainer, style,
+                                    'width:157px;height:157px;']
+                                  childNodeCount: 1
+                                  children:
+                                  - &id086
+                                    attributes: [class, scaledImageFitHeight img,
+                                      src, 'https://scontent.xx.fbcdn.net/v/t1.0-0/s280x280/17634574_623389254521823_5050950568122783400_n.jpg?oh=18d09643bab16a239535654c1395a82d&oe=59647D1F',
+                                      style, 'left:-61px;', alt, 'Image may contain:
+                                        one or more people and indoor', width, '280',
+                                      height, '157']
+                                    childNodeCount: 0
+                                    children: []
+                                    childrenids: []
+                                    h: 157.0
+                                    localName: img
+                                    nodeId: 289
+                                    nodeName: IMG
+                                    nodeType: 1
+                                    nodeValue: ''
+                                    parent: 288
+                                    props: {alt: 'Image may contain: one or more people
+                                        and indoor', class: scaledImageFitHeight img,
+                                      height: '157', src: 'https://scontent.xx.fbcdn.net/v/t1.0-0/s280x280/17634574_623389254521823_5050950568122783400_n.jpg?oh=18d09643bab16a239535654c1395a82d&oe=59647D1F',
+                                      style: 'left:-61px;', width: '280'}
+                                    value: ''
+                                    w: 280.0
+                                    x: 269.0
+                                    y: 606.0
+                                  childrenids: [289]
+                                  h: 157.0
+                                  localName: div
+                                  nodeId: 288
+                                  nodeName: DIV
+                                  nodeType: 1
+                                  nodeValue: ''
+                                  parent: 286
+                                  props: {class: uiScaledImageContainer, style: 'width:157px;height:157px;'}
+                                  value: ''
+                                  w: 157.0
+                                  x: 330.0
+                                  y: 606.0
+                                - &id087
+                                  attributes: [class, _52d9]
+                                  childNodeCount: 1
+                                  children:
+                                  - &id088
+                                    attributes: [class, _52da]
+                                    childNodeCount: 1
+                                    children:
+                                    - &id089
+                                      attributes: [class, _52db]
+                                      childNodeCount: 1
+                                      children:
+                                      - &id090
+                                        childrenids: []
+                                        localName: ''
+                                        nodeId: 293
+                                        nodeName: '#text'
+                                        nodeType: 3
+                                        nodeValue: '+4'
+                                        parent: 292
+                                        props: {}
+                                      childrenids: [293]
+                                      h: 157.0
+                                      localName: div
+                                      nodeId: 292
+                                      nodeName: DIV
+                                      nodeType: 1
+                                      nodeValue: ''
+                                      parent: 291
+                                      props: {class: _52db}
+                                      value: ''
+                                      w: 157.0
+                                      x: 330.0
+                                      y: 606.0
+                                    childrenids: [292]
+                                    h: 157.0
+                                    localName: div
+                                    nodeId: 291
+                                    nodeName: DIV
+                                    nodeType: 1
+                                    nodeValue: ''
+                                    parent: 290
+                                    props: {class: _52da}
+                                    value: ''
+                                    w: 157.0
+                                    x: 330.0
+                                    y: 606.0
+                                  childrenids: [291]
+                                  h: 157.0
+                                  localName: div
+                                  nodeId: 290
+                                  nodeName: DIV
+                                  nodeType: 1
+                                  nodeValue: ''
+                                  parent: 286
+                                  props: {class: _52d9}
+                                  value: ''
+                                  w: 157.0
+                                  x: 330.0
+                                  y: 606.0
+                                childrenids: [288, 290]
+                                h: 157.0
+                                localName: a
+                                nodeId: 286
+                                nodeName: A
+                                nodeType: 1
+                                nodeValue: ''
+                                parent: 273
+                                props: {class: _5dec _xcx, data-ft: '{"tn":"E"}',
+                                  data-render-location: homepage_stream, href: 'https://m.facebook.com/KearneyPolice/photos/pcb.623389621188453/623389254521823/?type=3&refsrc=https%3A%2F%2Fwww.facebook.com%2Fplugins%2Fpost.php',
+                                  id: u_0_5, style: 'top:317px; left:317px; width:
+                                    157px; height: 157px;', target: _blank}
+                                pseudoElements:
+                                - attributes: []
+                                  childNodeCount: 0
+                                  localName: <pseudo:after>
+                                  nodeId: 287
+                                  nodeName: <pseudo:after>
+                                  nodeType: 1
+                                  nodeValue: ''
+                                  pseudoType: after
+                                value: ''
+                                w: 157.0
+                                x: 330.0
+                                y: 606.0
+                              childrenids: [274, 278, 282, 286]
+                              h: 474.0
+                              localName: div
+                              nodeId: 273
+                              nodeName: DIV
+                              nodeType: 1
+                              nodeValue: ''
+                              parent: 272
+                              props: {class: _2a2q, style: 'width:474px; height:474px;'}
+                              value: ''
+                              w: 474.0
+                              x: 13.0
+                              y: 289.0
+                            childrenids: [273]
+                            h: 474.0
+                            localName: div
+                            nodeId: 272
+                            nodeName: DIV
+                            nodeType: 1
+                            nodeValue: ''
+                            parent: 271
+                            props: {class: mtm}
+                            value: ''
+                            w: 358.0
+                            x: 13.0
+                            y: 289.0
+                          childrenids: [272]
+                          h: 474.0
+                          localName: div
+                          nodeId: 271
+                          nodeName: DIV
+                          nodeType: 1
+                          nodeValue: ''
+                          parent: 270
+                          props: {data-ft: '{"tn":"H"}'}
+                          value: ''
+                          w: 358.0
+                          x: 13.0
+                          y: 289.0
+                        childrenids: [271]
+                        h: 474.0
+                        localName: div
+                        nodeId: 270
+                        nodeName: DIV
+                        nodeType: 1
+                        nodeValue: ''
+                        parent: 214
+                        props: {class: _3x-2}
+                        value: ''
+                        w: 358.0
+                        x: 13.0
+                        y: 289.0
+                      - &id091
+                        attributes: []
+                        childNodeCount: 0
+                        children: []
+                        childrenids: []
+                        h: 0.0
+                        localName: div
+                        nodeId: 294
+                        nodeName: DIV
+                        nodeType: 1
+                        nodeValue: ''
+                        parent: 214
+                        props: {}
+                        value: ''
+                        w: 358.0
+                        x: 13.0
+                        y: 763.0
+                      childrenids: [270, 294, 215, 238]
+                      h: 750.0
+                      localName: div
+                      nodeId: 214
+                      nodeName: DIV
+                      nodeType: 1
+                      nodeValue: ''
+                      parent: 210
+                      props: {}
+                      value: ''
+                      w: 358.0
+                      x: 13.0
+                      y: 13.0
+                    childrenids: [211, 213, 214]
+                    h: 762.0
+                    localName: div
+                    nodeId: 210
+                    nodeName: DIV
+                    nodeType: 1
+                    nodeValue: ''
+                    parent: 209
+                    props: {class: _1dwg _1w_m _2ph_}
+                    value: ''
+                    w: 382.0
+                    x: 1.0
+                    y: 1.0
+                  - &id092
+                    attributes: [class, _2162 _2_1h _rb9, id, u_0_7]
+                    childNodeCount: 1
+                    children:
+                    - &id093
+                      attributes: [class, uiGrid _51mz, cellspacing, '0', cellpadding,
+                        '0']
+                      childNodeCount: 1
+                      children:
+                      - &id094
+                        attributes: []
+                        childNodeCount: 1
+                        children:
+                        - &id095
+                          attributes: [class, _51mx]
+                          childNodeCount: 3
+                          children:
+                          - &id096
+                            attributes: [class, _51m- prl _435r]
+                            childNodeCount: 1
+                            children:
+                            - &id097
+                              attributes: [tabindex, '0', role, button, class, embeddedLikeButton,
+                                id, u_0_8]
+                              childNodeCount: 1
+                              children:
+                              - &id098
+                                attributes: [class, _2pi4 _36iq _4lk2 _3xre _2165,
+                                  title, Like]
+                                childNodeCount: 3
+                                children:
+                                - &id099
+                                  attributes: [class, _3-8_ _2yf7 _5jp _2166 img sp_post-plugin
+                                      sx_post-plugin_like-light]
+                                  childNodeCount: 0
+                                  children: []
+                                  childrenids: []
+                                  h: 16.0
+                                  localName: i
+                                  nodeId: 302
+                                  nodeName: I
+                                  nodeType: 1
+                                  nodeValue: ''
+                                  parent: 301
+                                  props: {class: _3-8_ _2yf7 _5jp _2166 img sp_post-plugin
+                                      sx_post-plugin_like-light}
+                                  value: ''
+                                  w: 16.0
+                                  x: 13.109375
+                                  y: 787.0
+                                - &id100
+                                  attributes: [class, _3-8_ _2yf7 _3wdt _2166 img
+                                      sp_post-plugin sx_post-plugin_like]
+                                  childNodeCount: 0
+                                  children: []
+                                  childrenids: []
+                                  h: 0.0
+                                  localName: i
+                                  nodeId: 303
+                                  nodeName: I
+                                  nodeType: 1
+                                  nodeValue: ''
+                                  parent: 301
+                                  props: {class: _3-8_ _2yf7 _3wdt _2166 img sp_post-plugin
+                                      sx_post-plugin_like}
+                                  value: ''
+                                  w: 0.0
+                                  x: 0.0
+                                  y: 0.0
+                                - &id101
+                                  childrenids: []
+                                  localName: ''
+                                  nodeId: 304
+                                  nodeName: '#text'
+                                  nodeType: 3
+                                  nodeValue: '79'
+                                  parent: 301
+                                  props: {}
+                                childrenids: [302, 303, 304]
+                                h: 40.0
+                                localName: div
+                                nodeId: 301
+                                nodeName: DIV
+                                nodeType: 1
+                                nodeValue: ''
+                                parent: 300
+                                props: {class: _2pi4 _36iq _4lk2 _3xre _2165, title: Like}
+                                value: ''
+                                w: 34.0
+                                x: 13.0
+                                y: 776.0
+                              childrenids: [301]
+                              h: 40.0
+                              localName: span
+                              nodeId: 300
+                              nodeName: SPAN
+                              nodeType: 1
+                              nodeValue: ''
+                              parent: 299
+                              props: {class: embeddedLikeButton, id: u_0_8, role: button,
+                                tabindex: '0'}
+                              value: ''
+                              w: 34.0
+                              x: 13.0
+                              y: 776.0
+                            childrenids: [300]
+                            h: 40.0
+                            localName: td
+                            nodeId: 299
+                            nodeName: TD
+                            nodeType: 1
+                            nodeValue: ''
+                            parent: 298
+                            props: {class: _51m- prl _435r}
+                            value: ''
+                            w: 54.0
+                            x: 13.0
+                            y: 776.0
+                          - &id102
+                            attributes: [class, _51m- prl _435r]
+                            childNodeCount: 1
+                            children:
+                            - &id103
+                              attributes: [class, _29bd, href, 'https://m.facebook.com/KearneyPolice/posts/623389621188453?refsrc=https%3A%2F%2Fwww.facebook.com%2Fplugins%2Fpost.php',
+                                target, _blank]
+                              childNodeCount: 1
+                              children:
+                              - &id104
+                                attributes: [class, _2pi4 _36iq _4lk2 _3xre _1p4p,
+                                  title, Comment]
+                                childNodeCount: 3
+                                children:
+                                - &id105
+                                  attributes: [class, _3-8_ _2yf7 _5jp _4mlr img sp_post-plugin
+                                      sx_post-plugin_comment-light]
+                                  childNodeCount: 0
+                                  children: []
+                                  childrenids: []
+                                  h: 16.0
+                                  localName: i
+                                  nodeId: 308
+                                  nodeName: I
+                                  nodeType: 1
+                                  nodeValue: ''
+                                  parent: 307
+                                  props: {class: _3-8_ _2yf7 _5jp _4mlr img sp_post-plugin
+                                      sx_post-plugin_comment-light}
+                                  value: ''
+                                  w: 16.0
+                                  x: 67.109375
+                                  y: 787.0
+                                - &id106
+                                  attributes: [class, _3-8_ _2yf7 _3wdt _4mlr img
+                                      sp_post-plugin sx_post-plugin_comment]
+                                  childNodeCount: 0
+                                  children: []
+                                  childrenids: []
+                                  h: 0.0
+                                  localName: i
+                                  nodeId: 309
+                                  nodeName: I
+                                  nodeType: 1
+                                  nodeValue: ''
+                                  parent: 307
+                                  props: {class: _3-8_ _2yf7 _3wdt _4mlr img sp_post-plugin
+                                      sx_post-plugin_comment}
+                                  value: ''
+                                  w: 0.0
+                                  x: 0.0
+                                  y: 0.0
+                                - &id107
+                                  childrenids: []
+                                  localName: ''
+                                  nodeId: 310
+                                  nodeName: '#text'
+                                  nodeType: 3
+                                  nodeValue: '45'
+                                  parent: 307
+                                  props: {}
+                                childrenids: [308, 309, 310]
+                                h: 40.0
+                                localName: div
+                                nodeId: 307
+                                nodeName: DIV
+                                nodeType: 1
+                                nodeValue: ''
+                                parent: 306
+                                props: {class: _2pi4 _36iq _4lk2 _3xre _1p4p, title: Comment}
+                                value: ''
+                                w: 34.0
+                                x: 67.0
+                                y: 776.0
+                              childrenids: [307]
+                              h: 40.0
+                              localName: a
+                              nodeId: 306
+                              nodeName: A
+                              nodeType: 1
+                              nodeValue: ''
+                              parent: 305
+                              props: {class: _29bd, href: 'https://m.facebook.com/KearneyPolice/posts/623389621188453?refsrc=https%3A%2F%2Fwww.facebook.com%2Fplugins%2Fpost.php',
+                                target: _blank}
+                              value: ''
+                              w: 34.0
+                              x: 67.0
+                              y: 776.0
+                            childrenids: [306]
+                            h: 40.0
+                            localName: td
+                            nodeId: 305
+                            nodeName: TD
+                            nodeType: 1
+                            nodeValue: ''
+                            parent: 298
+                            props: {class: _51m- prl _435r}
+                            value: ''
+                            w: 54.0
+                            x: 67.0
+                            y: 776.0
+                          - &id108
+                            attributes: [class, _51m- prl _51mw]
+                            childNodeCount: 1
+                            children:
+                            - &id109
+                              attributes: [class, _29bd, href, '/sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2FKearneyPolice%2Fposts%2F623389621188453&display=popup&ref=plugin&src=post',
+                                target, _blank, id, u_0_6]
+                              childNodeCount: 1
+                              children:
+                              - &id110
+                                attributes: [class, _2pi4 _36iq _4lk2 _3xre _50sk,
+                                  title, Share]
+                                childNodeCount: 3
+                                children:
+                                - &id111
+                                  attributes: [class, _3-8_ _2yf7 _5jp _2167 img sp_post-plugin
+                                      sx_post-plugin_share-light]
+                                  childNodeCount: 0
+                                  children: []
+                                  childrenids: []
+                                  h: 16.0
+                                  localName: i
+                                  nodeId: 314
+                                  nodeName: I
+                                  nodeType: 1
+                                  nodeValue: ''
+                                  parent: 313
+                                  props: {class: _3-8_ _2yf7 _5jp _2167 img sp_post-plugin
+                                      sx_post-plugin_share-light}
+                                  value: ''
+                                  w: 16.0
+                                  x: 121.0625
+                                  y: 788.0
+                                - &id112
+                                  attributes: [class, _3-8_ _2yf7 _3wdt _2167 img
+                                      sp_post-plugin sx_post-plugin_share]
+                                  childNodeCount: 0
+                                  children: []
+                                  childrenids: []
+                                  h: 0.0
+                                  localName: i
+                                  nodeId: 315
+                                  nodeName: I
+                                  nodeType: 1
+                                  nodeValue: ''
+                                  parent: 313
+                                  props: {class: _3-8_ _2yf7 _3wdt _2167 img sp_post-plugin
+                                      sx_post-plugin_share}
+                                  value: ''
+                                  w: 0.0
+                                  x: 0.0
+                                  y: 0.0
+                                - &id113
+                                  childrenids: []
+                                  localName: ''
+                                  nodeId: 316
+                                  nodeName: '#text'
+                                  nodeType: 3
+                                  nodeValue: 1.2K
+                                  parent: 313
+                                  props: {}
+                                childrenids: [314, 315, 316]
+                                h: 40.0
+                                localName: div
+                                nodeId: 313
+                                nodeName: DIV
+                                nodeType: 1
+                                nodeValue: ''
+                                parent: 312
+                                props: {class: _2pi4 _36iq _4lk2 _3xre _50sk, title: Share}
+                                value: ''
+                                w: 45.0
+                                x: 121.0
+                                y: 776.0
+                              childrenids: [313]
+                              h: 40.0
+                              localName: a
+                              nodeId: 312
+                              nodeName: A
+                              nodeType: 1
+                              nodeValue: ''
+                              parent: 311
+                              props: {class: _29bd, href: '/sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2FKearneyPolice%2Fposts%2F623389621188453&display=popup&ref=plugin&src=post',
+                                id: u_0_6, target: _blank}
+                              value: ''
+                              w: 45.0
+                              x: 121.0
+                              y: 776.0
+                            childrenids: [312]
+                            h: 40.0
+                            localName: td
+                            nodeId: 311
+                            nodeName: TD
+                            nodeType: 1
+                            nodeValue: ''
+                            parent: 298
+                            props: {class: _51m- prl _51mw}
+                            value: ''
+                            w: 45.0
+                            x: 121.0
+                            y: 776.0
+                          childrenids: [299, 305, 311]
+                          h: 40.0
+                          localName: tr
+                          nodeId: 298
+                          nodeName: TR
+                          nodeType: 1
+                          nodeValue: ''
+                          parent: 297
+                          props: {class: _51mx}
+                          value: ''
+                          w: 153.0
+                          x: 13.0
+                          y: 776.0
+                        childrenids: [298]
+                        h: 40.0
+                        localName: tbody
+                        nodeId: 297
+                        nodeName: TBODY
+                        nodeType: 1
+                        nodeValue: ''
+                        parent: 296
+                        props: {}
+                        value: ''
+                        w: 153.0
+                        x: 13.0
+                        y: 776.0
+                      childrenids: [297]
+                      h: 40.0
+                      localName: table
+                      nodeId: 296
+                      nodeName: TABLE
+                      nodeType: 1
+                      nodeValue: ''
+                      parent: 295
+                      props: {cellpadding: '0', cellspacing: '0', class: uiGrid _51mz}
+                      value: ''
+                      w: 153.0
+                      x: 13.0
+                      y: 776.0
+                    childrenids: [296]
+                    h: 41.0
+                    localName: div
+                    nodeId: 295
+                    nodeName: DIV
+                    nodeType: 1
+                    nodeValue: ''
+                    parent: 209
+                    props: {class: _2162 _2_1h _rb9, id: u_0_7}
+                    value: ''
+                    w: 358.0
+                    x: 13.0
+                    y: 775.0
+                  childrenids: [295, 210]
+                  h: 815.0
+                  localName: div
+                  nodeId: 209
+                  nodeName: DIV
+                  nodeType: 1
+                  nodeValue: ''
+                  parent: 207
+                  props: {aria-label: Story, class: fbUserContent _5pcr, role: article}
+                  value: ''
+                  w: 382.0
+                  x: 1.0
+                  y: 1.0
+                childrenids: [208, 209]
+                h: 815.0
+                localName: div
+                nodeId: 207
+                nodeName: DIV
+                nodeType: 1
+                nodeValue: ''
+                parent: 206
+                props: {class: _3ccb, data-gt: '{"type":"click2canvas","fbsource":703,"ref":"nf_generic"}',
+                  id: u_0_1}
+                value: ''
+                w: 382.0
+                x: 1.0
+                y: 1.0
+              childrenids: [207]
+              h: 817.0
+              localName: div
+              nodeId: 206
+              nodeName: DIV
+              nodeType: 1
+              nodeValue: ''
+              parent: 203
+              props: {class: _4-u2 mbm _4mrt _5jmm _5pat _5v3q _4-u8, data-ft: '{"fbfeed_location":23}',
+                data-fte: '1', data-ftr: '1', id: u_0_0}
+              value: ''
+              w: 384.0
+              x: 0.0
+              y: 0.0
+            childrenids: [204, 206]
+            h: 817.0
+            localName: div
+            nodeId: 203
+            nodeName: DIV
+            nodeType: 1
+            nodeValue: ''
+            parent: 202
+            props: {class: _5pcb _5tmf _50f3}
+            value: ''
+            w: 384.0
+            x: 0.0
+            y: 0.0
+          childrenids: [203]
+          h: 817.0
+          localName: div
+          nodeId: 202
+          nodeName: DIV
+          nodeType: 1
+          nodeValue: ''
+          parent: 201
+          props: {class: pluginSkinLight pluginFontHelvetica}
+          value: ''
+          w: 384.0
+          x: 0.0
+          y: 0.0
+        childrenids: [202]
+        h: 817.0
+        localName: div
+        nodeId: 201
+        nodeName: DIV
+        nodeType: 1
+        nodeValue: ''
+        parent: 166
+        props: {class: _li}
+        value: ''
+        w: 384.0
+        x: 0.0
+        y: 0.0
+      202: *id006
+      203: *id007
+      204: *id008
+      205: *id009
+      206: *id010
+      207: *id011
+      208: *id012
+      209: *id013
+      210: *id014
+      211: *id015
+      212: *id016
+      213: *id017
+      214: *id018
+      215: *id019
+      217: *id020
+      218: *id021
+      220: *id022
+      221: *id023
+      222: *id024
+      223: *id025
+      224: *id026
+      225: *id027
+      226: *id028
+      227: *id029
+      228: *id030
+      229: *id031
+      230: *id032
+      231: *id033
+      232: *id034
+      233: *id035
+      234: *id036
+      235: *id037
+      236: *id038
+      237: *id039
+      238: *id040
+      239: *id041
+      240: *id042
+      241: *id043
+      242: *id044
+      244: *id045
+      245: *id046
+      246: *id047
+      247: *id048
+      248: *id049
+      249: *id050
+      250: *id051
+      251: *id052
+      252: *id053
+      253: *id054
+      254: *id055
+      255: *id056
+      256: *id057
+      257: *id058
+      258: *id059
+      259: *id060
+      260: *id061
+      261: *id062
+      262: *id063
+      263: *id064
+      264: *id065
+      265: *id066
+      266: *id067
+      267: *id068
+      268: *id069
+      269: *id070
+      270: *id071
+      271: *id072
+      272: *id073
+      273: *id074
+      274: *id075
+      276: *id076
+      277: *id077
+      278: *id078
+      280: *id079
+      281: *id080
+      282: *id081
+      284: *id082
+      285: *id083
+      286: *id084
+      288: *id085
+      289: *id086
+      290: *id087
+      291: *id088
+      292: *id089
+      293: *id090
+      294: *id091
+      295: *id092
+      296: *id093
+      297: *id094
+      298: *id095
+      299: *id096
+      300: *id097
+      301: *id098
+      302: *id099
+      303: *id100
+      304: *id101
+      305: *id102
+      306: *id103
+      307: *id104
+      308: *id105
+      309: *id106
+      310: *id107
+      311: *id108
+      312: *id109
+      313: *id110
+      314: *id111
+      315: *id112
+      316: *id113
+      317:
+        attributes: []
+        childNodeCount: 1
+        children:
+        - {localName: '', nodeId: 318, nodeName: '#text', nodeType: 3, nodeValue: "requireLazy([\"\
+            Bootloader\"], function(Bootloader) {Bootloader.setResourceMap({\"enhkh\"\
+            :{\"type\":\"js\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\\
+            /v3iXqO4\\/yx\\/l\\/en_US\\/agLl4LRFR1G.js\",\"crossOrigin\":1},\"rdesk\"\
+            :{\"type\":\"js\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\\
+            /v3iVUG4\\/yf\\/l\\/en_US\\/I5aG8MM3eiJ.js\",\"crossOrigin\":1},\"ZAq2O\"\
+            :{\"type\":\"js\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\\
+            /v3iskR4\\/yh\\/l\\/en_US\\/JWdps42X2Xu.js\",\"crossOrigin\":1},\"0EX1E\"\
+            :{\"type\":\"js\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\\
+            /v3iZKe4\\/yv\\/l\\/en_US\\/9QcChbBKuHH.js\",\"crossOrigin\":1},\"3aVpj\"\
+            :{\"type\":\"js\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\\
+            /v3iUCR4\\/yS\\/l\\/en_US\\/rizL4pfLGAj.js\",\"crossOrigin\":1},\"3q0pN\"\
+            :{\"type\":\"js\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\\
+            /v3icZZ4\\/yA\\/l\\/en_US\\/Tn6It5Tj6cj.js\",\"crossOrigin\":1},\"G2yK9\"\
+            :{\"type\":\"js\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\\
+            /v3\\/yc\\/r\\/6k8JMHnyi_R.js\",\"crossOrigin\":1},\"mQoe5\":{\"type\"\
+            :\"js\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\/v3iUwt4\\\
+            /yQ\\/l\\/en_US\\/4LiApdg7aM7.js\",\"crossOrigin\":1},\"Klc20\":{\"type\"\
+            :\"js\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\/v3\\/y3\\\
+            /r\\/87DNbm9ci3o.js\",\"crossOrigin\":1},\"in8\\/q\":{\"type\":\"js\"\
+            ,\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\/v3ipuQ4\\/yR\\\
+            /l\\/en_US\\/StLaspt7lc_.js\",\"crossOrigin\":1},\"+ClWy\":{\"type\":\"\
+            js\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\/v3\\/y4\\\
+            /r\\/8uY2fAbhfBe.js\",\"crossOrigin\":1},\"iF4u1\":{\"type\":\"js\",\"\
+            src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\/v3iz2e4\\/yW\\/l\\\
+            /en_US\\/aLyXbivPbds.js\",\"crossOrigin\":1},\"BnIxf\":{\"type\":\"js\"\
+            ,\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\/v3\\/yi\\/r\\\
+            /6Oekp5c0zMh.js\",\"crossOrigin\":1},\"oeUXN\":{\"type\":\"js\",\"src\"\
+            :\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\/v3\\/yz\\/r\\/tia2K7wPxLm.js\"\
+            ,\"crossOrigin\":1},\"6bziN\":{\"type\":\"js\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\\
+            /rsrc.php\\/v3\\/y6\\/r\\/G-hB_EqpbpK.js\",\"crossOrigin\":1},\"3zays\"\
+            :{\"type\":\"css\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\\
+            /v3\\/yp\\/r\\/aVomAPLVNCJ.css\",\"crossOrigin\":1},\"lWgvs\":{\"type\"\
+            :\"js\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\/v3\\/yg\\\
+            /r\\/MmLZV43ZAwc.js\",\"crossOrigin\":1},\"vIIez\":{\"type\":\"js\",\"\
+            src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\/v3\\/yq\\/r\\/rWS63O1w-XU.js\"\
+            ,\"crossOrigin\":1},\"zHvMK\":{\"type\":\"js\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\\
+            /rsrc.php\\/v3ii3-4\\/yd\\/l\\/en_US\\/uvrFjwy8FJh.js\",\"crossOrigin\"\
+            :1},\"9TwE6\":{\"type\":\"js\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\\
+            /rsrc.php\\/v3i4tl4\\/yY\\/l\\/en_US\\/g8AVvKgRsAY.js\",\"crossOrigin\"\
+            :1},\"S7+J8\":{\"type\":\"css\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\\
+            /rsrc.php\\/v3\\/yG\\/r\\/PjOVByhqyhy.css\",\"crossOrigin\":1},\"ojovk\"\
+            :{\"type\":\"js\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\\
+            /v3\\/y_\\/r\\/HGegRgz-n0j.js\",\"crossOrigin\":1},\"Iaqfy\":{\"type\"\
+            :\"js\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\/v3icT_4\\\
+            /ya\\/l\\/en_US\\/FUI2SsEtZYr.js\",\"crossOrigin\":1},\"FLrzl\":{\"type\"\
+            :\"js\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\/v3i8gp4\\\
+            /yx\\/l\\/en_US\\/4aDbeGZ5dXl.js\",\"crossOrigin\":1},\"edK+i\":{\"type\"\
+            :\"css\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\/v3\\/yT\\\
+            /r\\/aV3XU_AKBOP.css\",\"crossOrigin\":1},\"wC8uI\":{\"type\":\"js\",\"\
+            src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\/v3imDo4\\/yv\\/l\\\
+            /en_US\\/D066Q_DIirN.js\",\"crossOrigin\":1},\"w5c4F\":{\"type\":\"js\"\
+            ,\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\/v3iKjl4\\/yq\\\
+            /l\\/en_US\\/LWi9QLy9B6J.js\",\"crossOrigin\":1},\"SzDGU\":{\"type\":\"\
+            js\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\/v3iSuk4\\\
+            /yD\\/l\\/en_US\\/HNpOKWxxC6P.js\",\"crossOrigin\":1},\"Mja15\":{\"type\"\
+            :\"js\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\/v3iQTr4\\\
+            /yk\\/l\\/en_US\\/hfbcRh0N2c3.js\",\"crossOrigin\":1},\"4imcb\":{\"type\"\
+            :\"css\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\/v3\\/yj\\\
+            /r\\/ko4GrG0GQY1.css\",\"crossOrigin\":1},\"gdN6N\":{\"type\":\"js\",\"\
+            src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\/v3i93w4\\/yD\\/l\\\
+            /en_US\\/X45LXpmMGuq.js\",\"crossOrigin\":1},\"F2\\/7F\":{\"type\":\"\
+            js\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\/v3icdy4\\\
+            /yS\\/l\\/en_US\\/W0sYzPl89tV.js\",\"crossOrigin\":1},\"ajRvo\":{\"type\"\
+            :\"js\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\/v3iMho4\\\
+            /y-\\/l\\/en_US\\/LPLFDUY9iHP.js\",\"crossOrigin\":1},\"dWgJV\":{\"type\"\
+            :\"js\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\/v3i1d04\\\
+            /yC\\/l\\/en_US\\/oxTThdz2Y_t.js\",\"crossOrigin\":1},\"fw+CZ\":{\"type\"\
+            :\"js\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\/v3\\/yl\\\
+            /r\\/xvCqyzFHFB1.js\",\"crossOrigin\":1},\"jbnxG\":{\"type\":\"js\",\"\
+            src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\/v3iOOX4\\/y5\\/l\\\
+            /en_US\\/Rs3U98iG7Ql.js\",\"crossOrigin\":1},\"eGyzq\":{\"type\":\"js\"\
+            ,\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\/v3inu04\\/y4\\\
+            /l\\/en_US\\/MNwgeqiabf1.js\",\"crossOrigin\":1},\"d6qUh\":{\"type\":\"\
+            css\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\/v3\\/yu\\\
+            /r\\/mvwV6aCqzJ3.css\",\"permanent\":1,\"crossOrigin\":1},\"W7cyF\":{\"\
+            type\":\"js\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\/v3\\\
+            /y-\\/r\\/89S2SHdg6v6.js\",\"crossOrigin\":1},\"rqrsj\":{\"type\":\"js\"\
+            ,\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\/v3\\/yX\\/r\\\
+            /hY79QOR-PYU.js\",\"crossOrigin\":1},\"uTXQh\":{\"type\":\"js\",\"src\"\
+            :\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\/v3\\/yS\\/r\\/NiRTnMmH6fD.js\"\
+            ,\"crossOrigin\":1},\"zuRnM\":{\"type\":\"js\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\\
+            /rsrc.php\\/v3\\/yV\\/r\\/MRX704SIGHw.js\",\"crossOrigin\":1},\"yHO1u\"\
+            :{\"type\":\"js\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\\
+            /v3\\/yk\\/r\\/ky4uLbyoQLS.js\",\"crossOrigin\":1},\"gWBip\":{\"type\"\
+            :\"css\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\/v3\\/y8\\\
+            /r\\/qIWYf-tWaTD.css\",\"crossOrigin\":1},\"V4Wzh\":{\"type\":\"css\"\
+            ,\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\/v3\\/yc\\/r\\\
+            /PqnTkrD3PnY.css\",\"permanent\":1,\"crossOrigin\":1},\"d7DzI\":{\"type\"\
+            :\"css\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\/v3\\/yy\\\
+            /r\\/TephZtEW6YV.css\",\"permanent\":1,\"crossOrigin\":1},\"z1p7V\":{\"\
+            type\":\"js\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\/v3inse4\\\
+            /yQ\\/l\\/en_US\\/DP_qyacy_Wg.js\",\"crossOrigin\":1},\"Xp5tm\":{\"type\"\
+            :\"js\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\/v3i58P4\\\
+            /yO\\/l\\/en_US\\/PRW6RA4PqsI.js\",\"crossOrigin\":1},\"a5OzZ\":{\"type\"\
+            :\"js\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\/v3\\/yR\\\
+            /r\\/1c3Yr5mTVOa.js\",\"crossOrigin\":1},\"0kfEl\":{\"type\":\"js\",\"\
+            src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\/v3i_l24\\/yf\\/l\\\
+            /en_US\\/AIUtXlcJdjS.js\",\"crossOrigin\":1},\"3KFNs\":{\"type\":\"js\"\
+            ,\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\/v3igD34\\/yJ\\\
+            /l\\/en_US\\/DrUxiIKhVBp.js\",\"crossOrigin\":1},\"y6\\/GJ\":{\"type\"\
+            :\"js\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\/v3iiVF4\\\
+            /yQ\\/l\\/en_US\\/0VuFZ42LZzH.js\",\"crossOrigin\":1},\"mv0IO\":{\"type\"\
+            :\"js\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\/v3iFTj4\\\
+            /yS\\/l\\/en_US\\/hWN4JM7l_b_.js\",\"crossOrigin\":1},\"Fy25w\":{\"type\"\
+            :\"js\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\/v3iWRi4\\\
+            /y1\\/l\\/en_US\\/jWSI_GhSrkj.js\",\"crossOrigin\":1},\"edpFD\":{\"type\"\
+            :\"js\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\/v3\\/yE\\\
+            /r\\/IL31hweIeXD.js\",\"crossOrigin\":1},\"GKefN\":{\"type\":\"js\",\"\
+            src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\/v3\\/y_\\/r\\/mYCpAe2Mbgf.js\"\
+            ,\"crossOrigin\":1},\"AJgeR\":{\"type\":\"js\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\\
+            /rsrc.php\\/v3icMq4\\/y-\\/l\\/en_US\\/v6kZd0ndNCm.js\",\"crossOrigin\"\
+            :1},\"c0CZX\":{\"type\":\"css\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\\
+            /rsrc.php\\/v3\\/yi\\/r\\/t2Sr9JUw8TP.css\",\"permanent\":1,\"crossOrigin\"\
+            :1},\"16aD\\/\":{\"type\":\"js\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\\
+            /rsrc.php\\/v3\\/y_\\/r\\/EI-PsrYIcdN.js\",\"crossOrigin\":1},\"LjKnh\"\
+            :{\"type\":\"js\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\\
+            /v3i4no4\\/yv\\/l\\/en_US\\/9_0uhEWXvJJ.js\",\"crossOrigin\":1},\"QZHCE\"\
+            :{\"type\":\"js\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\\
+            /v3iyDf4\\/yO\\/l\\/en_US\\/VmVb77ETJoS.js\",\"crossOrigin\":1},\"X2UjP\"\
+            :{\"type\":\"js\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\\
+            /v3\\/yx\\/r\\/AARlPps_EGR.js\",\"crossOrigin\":1},\"JOCcf\":{\"type\"\
+            :\"js\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\/v3\\/yW\\\
+            /r\\/aipPV426LEG.js\",\"crossOrigin\":1},\"+0b7e\":{\"type\":\"css\",\"\
+            src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\/v3\\/yd\\/r\\/UI6vVW13UAu.css\"\
+            ,\"permanent\":1,\"crossOrigin\":1},\"wx51A\":{\"type\":\"js\",\"src\"\
+            :\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\/v3if3Y4\\/yu\\/l\\/en_US\\\
+            /UU0Y-RpdBeT.js\",\"crossOrigin\":1},\"jNgMf\":{\"type\":\"js\",\"src\"\
+            :\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\/v3\\/y9\\/r\\/IO4DIs8nJvq.js\"\
+            ,\"crossOrigin\":1},\"XxJQ4\":{\"type\":\"js\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\\
+            /rsrc.php\\/v3\\/yE\\/r\\/pTMLxyFT7Hd.js\",\"crossOrigin\":1},\"QZXmU\"\
+            :{\"type\":\"js\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\\
+            /v3\\/yO\\/r\\/y0ly9oEvDnF.js\",\"crossOrigin\":1},\"qlW+A\":{\"type\"\
+            :\"js\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\/v3ig614\\\
+            /yR\\/l\\/en_US\\/BP-cfJNGrzS.js\",\"crossOrigin\":1},\"Sz3Vz\":{\"type\"\
+            :\"js\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\/v3\\/y8\\\
+            /r\\/wDV4Ah6Ls1H.js\",\"crossOrigin\":1},\"GwEWB\":{\"type\":\"js\",\"\
+            src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\/v3iK514\\/yk\\/l\\\
+            /en_US\\/G5FKkygu3l4.js\",\"crossOrigin\":1},\"H8JDt\":{\"type\":\"js\"\
+            ,\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\/v3\\/yc\\/r\\\
+            /QoUUreCgRU_.js\",\"crossOrigin\":1},\"hk++B\":{\"type\":\"js\",\"src\"\
+            :\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\/v3\\/y8\\/r\\/f30h-dwNVFF.js\"\
+            ,\"crossOrigin\":1},\"wE\\/xn\":{\"type\":\"js\",\"src\":\"https:\\/\\\
+            /static.xx.fbcdn.net\\/rsrc.php\\/v3\\/y4\\/r\\/xkpiQ5LiVoI.js\",\"crossOrigin\"\
+            :1},\"W9Wt6\":{\"type\":\"js\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\\
+            /rsrc.php\\/v3iJwk4\\/yu\\/l\\/en_US\\/thUI_LCH3rN.js\",\"crossOrigin\"\
+            :1},\"u0RAQ\":{\"type\":\"css\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\\
+            /rsrc.php\\/v3\\/yB\\/r\\/mGfIG-zRYVO.css\",\"permanent\":1,\"crossOrigin\"\
+            :1},\"+I34Z\":{\"type\":\"js\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\\
+            /rsrc.php\\/v3i95X4\\/y6\\/l\\/en_US\\/OT_ifZi162R.js\",\"crossOrigin\"\
+            :1},\"jon8d\":{\"type\":\"js\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\\
+            /rsrc.php\\/v3\\/yz\\/r\\/S6CfHzmd8Ej.js\",\"crossOrigin\":1},\"Jn14h\"\
+            :{\"type\":\"js\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\\
+            /v3iSo54\\/yx\\/l\\/en_US\\/uGmjaNFRVx6.js\",\"crossOrigin\":1},\"60loU\"\
+            :{\"type\":\"css\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\\
+            /v3\\/yv\\/r\\/lnZtfj_z2hr.css\",\"permanent\":1,\"crossOrigin\":1},\"\
+            3py3C\":{\"type\":\"js\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\\
+            /v3iOOq4\\/yM\\/l\\/en_US\\/aY8APYbdaBI.js\",\"crossOrigin\":1},\"61cqW\"\
+            :{\"type\":\"js\",\"src\":\"https:\\/\\/static.xx.fbcdn.net\\/rsrc.php\\\
+            /v3i8Rv4\\/yS\\/l\\/en_US\\/ziHseg0aDRs.js\",\"crossOrigin\":1},\"622TF\"\
+            :{\"type\":\"css\",\"src\":\"https:\\/\\\u2026"}
+        childrenids: []
+        localName: script
+        nodeId: 317
+        nodeName: SCRIPT
+        nodeType: 1
+        nodeValue: ''
+        parent: 166
+        props: {}
+      319:
+        attributes: []
+        childNodeCount: 1
+        children:
+        - {localName: '', nodeId: 320, nodeName: '#text', nodeType: 3, nodeValue: 'requireLazy(["InitialJSLoader"],
+            function(InitialJSLoader) {InitialJSLoader.loadOnDOMContentReady(["AJgeR"]);});'}
+        childrenids: []
+        localName: script
+        nodeId: 319
+        nodeName: SCRIPT
+        nodeType: 1
+        nodeValue: ''
+        parent: 166
+        props: {}
+      321:
+        attributes: []
+        childNodeCount: 1
+        children:
+        - {localName: '', nodeId: 322, nodeName: '#text', nodeType: 3, nodeValue: 'require("TimeSlice").guard(function()
+            {require("ServerJSDefine").handleDefines([["PlatformVersions",[],{"LATEST":"v2.8","versions":{"UNVERSIONED":"unversioned","V1_0":"v1.0","V2_0":"v2.0","V2_1":"v2.1","V2_2":"v2.2","V2_3":"v2.3","V2_4":"v2.4","V2_5":"v2.5","V2_6":"v2.6","V2_7":"v2.7","V2_8":"v2.8"}},1254]]);require("InitialJSLoader").handleServerJS({"elements":[["__elem_072b8e64_0_0","u_0_6",1],["__elem_a588f507_0_0","u_0_7",1],["__elem_de92090e_0_0","u_0_8",1]],"require":[["PluginReturn","syncPlugins",[],[],[]],["WebPixelRatio","startDetecting",[],[1],[]],["FeedTrackingAsync","init",[],[],[]],["EntstreamAttachmentRelatedShare","loadInlineStoryPivotAttachment",[],["u_0_2","S:_I248753545318731:623389621188453"],[]],["EntstreamAttachmentRelatedShare","loadInlineStoryPivotAttachment",[],["u_0_3","S:_I248753545318731:623389621188453"],[]],["EntstreamAttachmentRelatedShare","loadInlineStoryPivotAttachment",[],["u_0_4","S:_I248753545318731:623389621188453"],[]],["EntstreamAttachmentRelatedShare","loadInlineStoryPivotAttachment",[],["u_0_5","S:_I248753545318731:623389621188453"],[]],["PluginFeedFooterActionLogger","initializeClickLoggers",["__elem_a588f507_0_0"],[{"__m":"__elem_a588f507_0_0"},"_2165","_22v4","_1p4p","_50sk","embedded_post","S:_I248753545318731:623389621188453",null,false],[]],["PluginFeedLikeButton","loggedOutLikeButton",["__elem_de92090e_0_0"],["S:_I248753545318731:623389621188453",23,{"__m":"__elem_de92090e_0_0"}],[]],["PopupLink","listen",["__elem_072b8e64_0_0"],[{"__m":"__elem_072b8e64_0_0"},670,340],[]],["NavigationMetrics","setPage",[],[{"page":"\/plugins\/post.php","page_type":"widget","page_uri":"https:\/\/www.facebook.com\/plugins\/post.php?href=https\u00253A\u00252F\u00252Fwww.facebook.com\u00252FKearneyPolice\u00252Fposts\u00252F623389621188453&width=500","serverLID":"6404878227166530485"}],[]]]},"iw");},
+            "ServerJS define", {"root":true})();'}
+        childrenids: []
+        localName: script
+        nodeId: 321
+        nodeName: SCRIPT
+        nodeType: 1
+        nodeValue: ''
+        parent: 166
+        props: {}
+    page: {base_h: 2170, base_w: 1006, base_x: 1117, base_y: 1656, empty: false, title: Facebook,
+      url: 'https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FKearneyPolice%2Fposts%2F623389621188453&width=500',
+      ws_url: 'ws://127.0.0.1:12345/devtools/page/B730D519-05F6-4073-99AA-933033EBB9BD'}
+    parents: {163: 162, 164: 162, 165: 164, 166: 164, 167: 165, 168: 165, 169: 165,
+      170: 169, 171: 165, 172: 165, 173: 172, 174: 165, 175: 174, 176: 165, 177: 176,
+      178: 165, 179: 165, 180: 165, 181: 165, 182: 165, 183: 165, 184: 165, 185: 165,
+      186: 165, 187: 165, 188: 165, 189: 165, 190: 165, 191: 165, 192: 165, 193: 165,
+      194: 165, 195: 165, 196: 165, 197: 196, 198: 165, 199: 198, 200: 165, 201: 166,
+      202: 201, 203: 202, 204: 203, 205: 204, 206: 203, 207: 206, 208: 207, 209: 207,
+      210: 209, 211: 210, 212: 211, 213: 210, 214: 210, 215: 214, 217: 215, 218: 217,
+      220: 218, 221: 215, 222: 221, 223: 222, 224: 223, 225: 224, 226: 225, 227: 215,
+      228: 227, 229: 228, 230: 229, 231: 229, 232: 231, 233: 232, 234: 231, 235: 234,
+      236: 235, 237: 236, 238: 214, 239: 238, 240: 239, 241: 240, 242: 239, 244: 242,
+      245: 242, 246: 242, 247: 242, 248: 247, 249: 242, 250: 249, 251: 239, 252: 251,
+      253: 252, 254: 252, 255: 252, 256: 251, 257: 256, 258: 251, 259: 258, 260: 259,
+      261: 258, 262: 251, 263: 262, 264: 263, 265: 239, 266: 265, 267: 266, 268: 267,
+      269: 268, 270: 214, 271: 270, 272: 271, 273: 272, 274: 273, 276: 274, 277: 276,
+      278: 273, 280: 278, 281: 280, 282: 273, 284: 282, 285: 284, 286: 273, 288: 286,
+      289: 288, 290: 286, 291: 290, 292: 291, 293: 292, 294: 214, 295: 209, 296: 295,
+      297: 296, 298: 297, 299: 298, 300: 299, 301: 300, 302: 301, 303: 301, 304: 301,
+      305: 298, 306: 305, 307: 306, 308: 307, 309: 307, 310: 307, 311: 298, 312: 311,
+      313: 312, 314: 313, 315: 313, 316: 313, 317: 166, 318: 317, 319: 166, 320: 319,
+      321: 166, 322: 321}
+    scaling: 2.625
+  title: Facebook

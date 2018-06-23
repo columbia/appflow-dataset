@@ -1,0 +1,5 @@
+8 email
+10 password
+12 firstname
+14 lastname
+15 register

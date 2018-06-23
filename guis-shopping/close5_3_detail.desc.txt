@@ -1,0 +1,3 @@
+12 detail_image
+18 detail_price
+66 detail_buy

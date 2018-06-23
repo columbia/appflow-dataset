@@ -1,0 +1,10 @@
+15 item_title
+17 item_price
+23 item_image
+26 item_title
+28 item_price
+34 item_image
+37 item_title
+39 item_price
+46 search
+51 cart

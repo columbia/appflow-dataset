@@ -1,0 +1,7 @@
+17 cart_list
+24 item_image
+25 item_title
+32 item_count
+36 item_price
+55 cart_tax
+58 cart_subtotal

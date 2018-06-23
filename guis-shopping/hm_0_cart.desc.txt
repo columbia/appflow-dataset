@@ -1,0 +1,7 @@
+16 cart_list
+17 cart_item
+26 item_count
+32 cart_item
+41 item_count
+72 cart_subtotal
+73 checkout

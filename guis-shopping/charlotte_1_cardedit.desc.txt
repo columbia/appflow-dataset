@@ -1,0 +1,15 @@
+7 back
+19 card_no
+22 card_cvv
+27 card_month
+29 card_year
+35 card_first
+36 card_last
+38 card_line1
+40 card_line2
+41 card_city
+43 card_state
+44 card_zipcode
+45 card_country
+46 card_phone
+48 card_save
